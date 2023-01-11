@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1761920007">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="438105790" Name="Outside" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Outside"/>
+				<AuxBus Id="580245626" Name="Toilet" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Toilet"/>
+				<AuxBus Id="1779701493" Name="Main_Gallery" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Main_Gallery"/>
+				<AuxBus Id="3083919765" Name="Small_Gallery" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Small_Gallery"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="988953028" Name="SFXVolume" ObjectPath="\Game Parameters\Default Work Unit\SFXVolume"/>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
+				<GameParameter Id="2918011349" Name="MasterVolume" ObjectPath="\Game Parameters\Default Work Unit\MasterVolume"/>
+				<GameParameter Id="4143496951" Name="Anxiety" ObjectPath="\Game Parameters\Default Work Unit\Anxiety"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1831461191" Language="SFX" Hash="1127891646">
+			<ObjectPath>\SoundBanks\Default Work Unit\Bathroom</ObjectPath>
+			<ShortName>Bathroom</ShortName>
+			<Path>Bathroom.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3059754700" Name="Play_BathroomDoorClick" ObjectPath="\Events\Default Work Unit\Bathroom\Door\Play_BathroomDoorClick" MaxAttenuation="25." DurationType="OneShot" DurationMin="0.290163" DurationMax="0.307417">
+					<IncludedMemoryFiles>
+						<File Id="833864767" Language="SFX">
+							<ShortName>Click.wav</ShortName>
+							<Path>SFX\Click_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2528637642" Name="Play_BathroomDoorImpact" ObjectPath="\Events\Default Work Unit\Bathroom\Door\Play_BathroomDoorImpact" MaxAttenuation="25." DurationType="OneShot" DurationMin="0.582919" DurationMax="0.635678">
+					<IncludedMemoryFiles>
+						<File Id="16732569" Language="SFX">
+							<ShortName>Impact.wav</ShortName>
+							<Path>SFX\Impact_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="836867030" Name="Play_BathroomDoorSqueakClosed" ObjectPath="\Events\Default Work Unit\Bathroom\Door\Play_BathroomDoorSqueakClosed" MaxAttenuation="25." DurationType="OneShot" DurationMin="0.837308" DurationMax="0.9">
+					<IncludedMemoryFiles>
+						<File Id="169234927" Language="SFX">
+							<ShortName>Squeak Closed.wav</ShortName>
+							<Path>SFX\Squeak Closed_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2005310866" Name="Play_BathroomDoorSqueakOpen" ObjectPath="\Events\Default Work Unit\Bathroom\Door\Play_BathroomDoorSqueakOpen" MaxAttenuation="25." DurationType="OneShot" DurationMin="0.738197" DurationMax="0.985374">
+					<IncludedMemoryFiles>
+						<File Id="391689376" Language="SFX">
+							<ShortName>Squeak Open.wav</ShortName>
+							<Path>SFX\Squeak Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4104340779" Name="Play_BathroomDoorThud" ObjectPath="\Events\Default Work Unit\Bathroom\Door\Play_BathroomDoorThud" MaxAttenuation="25." DurationType="OneShot" DurationMin="0.534074" DurationMax="0.582412">
+					<IncludedMemoryFiles>
+						<File Id="923908852" Language="SFX">
+							<ShortName>Thud.wav</ShortName>
+							<Path>SFX\Thud_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3748840666" Name="Play_TapRunning" ObjectPath="\Events\Default Work Unit\Bathroom\Sink\Play_TapRunning" MaxAttenuation="25." DurationType="Mixed" DurationMin="4.23176" DurationMax="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="604055459" Language="SFX">
+							<ShortName>Running Tap Loop.wav</ShortName>
+							<Path>SFX\Running Tap Loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="781204341" Language="SFX">
+							<ShortName>Running Tap Start.wav</ShortName>
+							<Path>SFX\Running Tap Start_10C4C929.wem</Path>
+						</File>
+						<File Id="817620279" Language="SFX">
+							<ShortName>Running Tap End.wav</ShortName>
+							<Path>SFX\Running Tap End_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1853832177" Name="Play_ToiletFlush" ObjectPath="\Events\Default Work Unit\Bathroom\Toilet\Play_ToiletFlush" MaxAttenuation="25." DurationType="OneShot" DurationMin="37.804817" DurationMax="46.275124">
+					<IncludedMemoryFiles>
+						<File Id="769748403" Language="SFX">
+							<ShortName>Toilet Flush.wav</ShortName>
+							<Path>SFX\Toilet Flush_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="253011666" Name="Stop_BathroomDoorSounds" ObjectPath="\Events\Default Work Unit\Bathroom\Door\Stop_BathroomDoorSounds" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2944826444" Name="Stop_TapRunning" ObjectPath="\Events\Default Work Unit\Bathroom\Sink\Stop_TapRunning" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1875300071" Name="Stop_ToiletFlush" ObjectPath="\Events\Default Work Unit\Bathroom\Toilet\Stop_ToiletFlush" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="4143496951" Name="Anxiety" ObjectPath="\Game Parameters\Default Work Unit\Anxiety"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="2179486487" Language="SFX" Hash="814160729">
+			<ObjectPath>\SoundBanks\Default Work Unit\Heartbeat</ObjectPath>
+			<ShortName>Heartbeat</ShortName>
+			<Path>Heartbeat.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3765695918" Name="Play_Heartbeat" ObjectPath="\Events\Default Work Unit\Heartbeat\Play_Heartbeat" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="240417033" Language="SFX">
+							<ShortName>Heartbeat 7.wav</ShortName>
+							<Path>SFX\Heartbeat 7_10C4C929.wem</Path>
+						</File>
+						<File Id="271812949" Language="SFX">
+							<ShortName>Heartbeat 1.wav</ShortName>
+							<Path>SFX\Heartbeat 1_E50830D8.wem</Path>
+						</File>
+						<File Id="358994641" Language="SFX">
+							<ShortName>Heartbeat 4.wav</ShortName>
+							<Path>SFX\Heartbeat 4_E6B203BB.wem</Path>
+						</File>
+						<File Id="388958050" Language="SFX">
+							<ShortName>Heartbeat 3.wav</ShortName>
+							<Path>SFX\Heartbeat 3_E557ECA9.wem</Path>
+						</File>
+						<File Id="501577973" Language="SFX">
+							<ShortName>Heartbeat 5.wav</ShortName>
+							<Path>SFX\Heartbeat 5_04A3B84A.wem</Path>
+						</File>
+						<File Id="935243439" Language="SFX">
+							<ShortName>Heartbeat 2.wav</ShortName>
+							<Path>SFX\Heartbeat 2_87012581.wem</Path>
+						</File>
+						<File Id="954761023" Language="SFX">
+							<ShortName>Heartbeat 6.wav</ShortName>
+							<Path>SFX\Heartbeat 6_6CA566B1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3319673256" Name="Stop_Heartbeat" ObjectPath="\Events\Default Work Unit\Heartbeat\Stop_Heartbeat" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="240417033" Language="SFX">
+					<ShortName>Heartbeat 7.wav</ShortName>
+					<Path>SFX\Heartbeat 7_10C4C929.wem</Path>
+				</File>
+				<File Id="271812949" Language="SFX">
+					<ShortName>Heartbeat 1.wav</ShortName>
+					<Path>SFX\Heartbeat 1_E50830D8.wem</Path>
+				</File>
+				<File Id="358994641" Language="SFX">
+					<ShortName>Heartbeat 4.wav</ShortName>
+					<Path>SFX\Heartbeat 4_E6B203BB.wem</Path>
+				</File>
+				<File Id="388958050" Language="SFX">
+					<ShortName>Heartbeat 3.wav</ShortName>
+					<Path>SFX\Heartbeat 3_E557ECA9.wem</Path>
+				</File>
+				<File Id="501577973" Language="SFX">
+					<ShortName>Heartbeat 5.wav</ShortName>
+					<Path>SFX\Heartbeat 5_04A3B84A.wem</Path>
+				</File>
+				<File Id="935243439" Language="SFX">
+					<ShortName>Heartbeat 2.wav</ShortName>
+					<Path>SFX\Heartbeat 2_87012581.wem</Path>
+				</File>
+				<File Id="954761023" Language="SFX">
+					<ShortName>Heartbeat 6.wav</ShortName>
+					<Path>SFX\Heartbeat 6_6CA566B1.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="4143496951" Name="Anxiety" ObjectPath="\Game Parameters\Default Work Unit\Anxiety"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="2385628198" Language="SFX" Hash="804923057">
+			<ObjectPath>\SoundBanks\Default Work Unit\Footsteps</ObjectPath>
+			<ShortName>Footsteps</ShortName>
+			<Path>Footsteps.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps\Play_Footsteps" DurationType="OneShot" DurationMin="0.531373" DurationMax="0.662873">
+					<IncludedMemoryFiles>
+						<File Id="4052048" Language="SFX">
+							<ShortName>Step_Wood_2.wav</ShortName>
+							<Path>SFX\Step_Wood_2_0790E913.wem</Path>
+						</File>
+						<File Id="106064177" Language="SFX">
+							<ShortName>Step_Wood_4.wav</ShortName>
+							<Path>SFX\Step_Wood_4_0790E913.wem</Path>
+						</File>
+						<File Id="125385592" Language="SFX">
+							<ShortName>Step_Stone_7.wav</ShortName>
+							<Path>SFX\Step_Stone_7_F73F3354.wem</Path>
+						</File>
+						<File Id="178409484" Language="SFX">
+							<ShortName>Step_Wood_6.wav</ShortName>
+							<Path>SFX\Step_Wood_6_0790E913.wem</Path>
+						</File>
+						<File Id="236070759" Language="SFX">
+							<ShortName>Step_Stone_1.wav</ShortName>
+							<Path>SFX\Step_Stone_1_F73F3354.wem</Path>
+						</File>
+						<File Id="249742517" Language="SFX">
+							<ShortName>Step_Stone_5.wav</ShortName>
+							<Path>SFX\Step_Stone_5_3BA24F5F.wem</Path>
+						</File>
+						<File Id="386877447" Language="SFX">
+							<ShortName>Step_Stone_6.wav</ShortName>
+							<Path>SFX\Step_Stone_6_F73F3354.wem</Path>
+						</File>
+						<File Id="441713871" Language="SFX">
+							<ShortName>Step_Stone_2.wav</ShortName>
+							<Path>SFX\Step_Stone_2_F73F3354.wem</Path>
+						</File>
+						<File Id="483616072" Language="SFX">
+							<ShortName>Step_Wood_8.wav</ShortName>
+							<Path>SFX\Step_Wood_8_0790E913.wem</Path>
+						</File>
+						<File Id="488857075" Language="SFX">
+							<ShortName>Step_Wood_3.wav</ShortName>
+							<Path>SFX\Step_Wood_3_0790E913.wem</Path>
+						</File>
+						<File Id="498618253" Language="SFX">
+							<ShortName>Step_Wood_5.wav</ShortName>
+							<Path>SFX\Step_Wood_5_0790E913.wem</Path>
+						</File>
+						<File Id="512767837" Language="SFX">
+							<ShortName>Step_Stone_4.wav</ShortName>
+							<Path>SFX\Step_Stone_4_F73F3354.wem</Path>
+						</File>
+						<File Id="752270390" Language="SFX">
+							<ShortName>Step_Wood_7.wav</ShortName>
+							<Path>SFX\Step_Wood_7_0790E913.wem</Path>
+						</File>
+						<File Id="756690636" Language="SFX">
+							<ShortName>Step_Stone_8.wav</ShortName>
+							<Path>SFX\Step_Stone_8_F73F3354.wem</Path>
+						</File>
+						<File Id="787479008" Language="SFX">
+							<ShortName>Step_Wood_1.wav</ShortName>
+							<Path>SFX\Step_Wood_1_0790E913.wem</Path>
+						</File>
+						<File Id="982768815" Language="SFX">
+							<ShortName>Step_Stone_3.wav</ShortName>
+							<Path>SFX\Step_Stone_3_F73F3354.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{5CD19ABE-79E5-41F6-AECE-AD681EAFE1CD}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{7D245F1D-FC0B-4B10-A149-094A41E01E41}">
+							<Media>
+								<File Id="125385592"/>
+								<File Id="236070759"/>
+								<File Id="249742517"/>
+								<File Id="386877447"/>
+								<File Id="441713871"/>
+								<File Id="512767837"/>
+								<File Id="756690636"/>
+								<File Id="982768815"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5CD19ABE-79E5-41F6-AECE-AD681EAFE1CD}">
+							<Media>
+								<File Id="4052048"/>
+								<File Id="106064177"/>
+								<File Id="178409484"/>
+								<File Id="483616072"/>
+								<File Id="488857075"/>
+								<File Id="498618253"/>
+								<File Id="752270390"/>
+								<File Id="787479008"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="4052048" Language="SFX">
+					<ShortName>Step_Wood_2.wav</ShortName>
+					<Path>SFX\Step_Wood_2_0790E913.wem</Path>
+				</File>
+				<File Id="106064177" Language="SFX">
+					<ShortName>Step_Wood_4.wav</ShortName>
+					<Path>SFX\Step_Wood_4_0790E913.wem</Path>
+				</File>
+				<File Id="125385592" Language="SFX">
+					<ShortName>Step_Stone_7.wav</ShortName>
+					<Path>SFX\Step_Stone_7_F73F3354.wem</Path>
+				</File>
+				<File Id="178409484" Language="SFX">
+					<ShortName>Step_Wood_6.wav</ShortName>
+					<Path>SFX\Step_Wood_6_0790E913.wem</Path>
+				</File>
+				<File Id="236070759" Language="SFX">
+					<ShortName>Step_Stone_1.wav</ShortName>
+					<Path>SFX\Step_Stone_1_F73F3354.wem</Path>
+				</File>
+				<File Id="249742517" Language="SFX">
+					<ShortName>Step_Stone_5.wav</ShortName>
+					<Path>SFX\Step_Stone_5_3BA24F5F.wem</Path>
+				</File>
+				<File Id="386877447" Language="SFX">
+					<ShortName>Step_Stone_6.wav</ShortName>
+					<Path>SFX\Step_Stone_6_F73F3354.wem</Path>
+				</File>
+				<File Id="441713871" Language="SFX">
+					<ShortName>Step_Stone_2.wav</ShortName>
+					<Path>SFX\Step_Stone_2_F73F3354.wem</Path>
+				</File>
+				<File Id="483616072" Language="SFX">
+					<ShortName>Step_Wood_8.wav</ShortName>
+					<Path>SFX\Step_Wood_8_0790E913.wem</Path>
+				</File>
+				<File Id="488857075" Language="SFX">
+					<ShortName>Step_Wood_3.wav</ShortName>
+					<Path>SFX\Step_Wood_3_0790E913.wem</Path>
+				</File>
+				<File Id="498618253" Language="SFX">
+					<ShortName>Step_Wood_5.wav</ShortName>
+					<Path>SFX\Step_Wood_5_0790E913.wem</Path>
+				</File>
+				<File Id="512767837" Language="SFX">
+					<ShortName>Step_Stone_4.wav</ShortName>
+					<Path>SFX\Step_Stone_4_F73F3354.wem</Path>
+				</File>
+				<File Id="752270390" Language="SFX">
+					<ShortName>Step_Wood_7.wav</ShortName>
+					<Path>SFX\Step_Wood_7_0790E913.wem</Path>
+				</File>
+				<File Id="756690636" Language="SFX">
+					<ShortName>Step_Stone_8.wav</ShortName>
+					<Path>SFX\Step_Stone_8_F73F3354.wem</Path>
+				</File>
+				<File Id="787479008" Language="SFX">
+					<ShortName>Step_Wood_1.wav</ShortName>
+					<Path>SFX\Step_Wood_1_0790E913.wem</Path>
+				</File>
+				<File Id="982768815" Language="SFX">
+					<ShortName>Step_Stone_3.wav</ShortName>
+					<Path>SFX\Step_Stone_3_F73F3354.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="4143496951" Name="Anxiety" ObjectPath="\Game Parameters\Default Work Unit\Anxiety"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps" ObjectPath="\Switches\Default Work Unit\Footsteps" GUID="{205747E5-ECFE-4E1E-BBC4-68ECD5EE1CE3}">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Footsteps\Stone" GUID="{7D245F1D-FC0B-4B10-A149-094A41E01E41}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Footsteps\Wood" GUID="{5CD19ABE-79E5-41F6-AECE-AD681EAFE1CD}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="2730119150" Language="SFX" Hash="3157115594">
+			<ObjectPath>\SoundBanks\Default Work Unit\Outdoors</ObjectPath>
+			<ShortName>Outdoors</ShortName>
+			<Path>Outdoors.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2095862519" Name="Play_OutdoorsBlendContainer" ObjectPath="\Events\Default Work Unit\Exterior\Play_OutdoorsBlendContainer" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="147418415" Language="SFX">
+							<ShortName>Car Passing 1.wav</ShortName>
+							<Path>SFX\Car Passing 1_10C4C929.wem</Path>
+						</File>
+						<File Id="240417033" Language="SFX">
+							<ShortName>Heartbeat 7.wav</ShortName>
+							<Path>SFX\Heartbeat 7_10C4C929.wem</Path>
+						</File>
+						<File Id="271812949" Language="SFX">
+							<ShortName>Heartbeat 1.wav</ShortName>
+							<Path>SFX\Heartbeat 1_E50830D8.wem</Path>
+						</File>
+						<File Id="358994641" Language="SFX">
+							<ShortName>Heartbeat 4.wav</ShortName>
+							<Path>SFX\Heartbeat 4_E6B203BB.wem</Path>
+						</File>
+						<File Id="388958050" Language="SFX">
+							<ShortName>Heartbeat 3.wav</ShortName>
+							<Path>SFX\Heartbeat 3_E557ECA9.wem</Path>
+						</File>
+						<File Id="501577973" Language="SFX">
+							<ShortName>Heartbeat 5.wav</ShortName>
+							<Path>SFX\Heartbeat 5_04A3B84A.wem</Path>
+						</File>
+						<File Id="550204226" Language="SFX">
+							<ShortName>Seagulls.wav</ShortName>
+							<Path>SFX\Seagulls_10C4C929.wem</Path>
+						</File>
+						<File Id="664005210" Language="SFX">
+							<ShortName>Ambience.wav</ShortName>
+							<Path>SFX\Ambience_D79FB2B7.wem</Path>
+						</File>
+						<File Id="935243439" Language="SFX">
+							<ShortName>Heartbeat 2.wav</ShortName>
+							<Path>SFX\Heartbeat 2_87012581.wem</Path>
+						</File>
+						<File Id="954761023" Language="SFX">
+							<ShortName>Heartbeat 6.wav</ShortName>
+							<Path>SFX\Heartbeat 6_6CA566B1.wem</Path>
+						</File>
+						<File Id="1008229223" Language="SFX">
+							<ShortName>Car Passing 2.wav</ShortName>
+							<Path>SFX\Car Passing 2_10C4C929.wem</Path>
+						</File>
+						<File Id="1071724801" Language="SFX">
+							<ShortName>Car Passing 3.wav</ShortName>
+							<Path>SFX\Car Passing 3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="606952887" Name="Play_OutdoorsHeartbeat" ObjectPath="\Events\Default Work Unit\Exterior\Play_OutdoorsHeartbeat" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="240417033" Language="SFX">
+							<ShortName>Heartbeat 7.wav</ShortName>
+							<Path>SFX\Heartbeat 7_10C4C929.wem</Path>
+						</File>
+						<File Id="271812949" Language="SFX">
+							<ShortName>Heartbeat 1.wav</ShortName>
+							<Path>SFX\Heartbeat 1_E50830D8.wem</Path>
+						</File>
+						<File Id="358994641" Language="SFX">
+							<ShortName>Heartbeat 4.wav</ShortName>
+							<Path>SFX\Heartbeat 4_E6B203BB.wem</Path>
+						</File>
+						<File Id="388958050" Language="SFX">
+							<ShortName>Heartbeat 3.wav</ShortName>
+							<Path>SFX\Heartbeat 3_E557ECA9.wem</Path>
+						</File>
+						<File Id="501577973" Language="SFX">
+							<ShortName>Heartbeat 5.wav</ShortName>
+							<Path>SFX\Heartbeat 5_04A3B84A.wem</Path>
+						</File>
+						<File Id="935243439" Language="SFX">
+							<ShortName>Heartbeat 2.wav</ShortName>
+							<Path>SFX\Heartbeat 2_87012581.wem</Path>
+						</File>
+						<File Id="954761023" Language="SFX">
+							<ShortName>Heartbeat 6.wav</ShortName>
+							<Path>SFX\Heartbeat 6_6CA566B1.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="82798741" Name="Stop_OutdoorsBlendContainer" ObjectPath="\Events\Default Work Unit\Exterior\Stop_OutdoorsBlendContainer" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2243099949" Name="Stop_OutdoorsHeartbeat" ObjectPath="\Events\Default Work Unit\Exterior\Stop_OutdoorsHeartbeat" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="147418415" Language="SFX">
+					<ShortName>Car Passing 1.wav</ShortName>
+					<Path>SFX\Car Passing 1_10C4C929.wem</Path>
+				</File>
+				<File Id="240417033" Language="SFX">
+					<ShortName>Heartbeat 7.wav</ShortName>
+					<Path>SFX\Heartbeat 7_10C4C929.wem</Path>
+				</File>
+				<File Id="271812949" Language="SFX">
+					<ShortName>Heartbeat 1.wav</ShortName>
+					<Path>SFX\Heartbeat 1_E50830D8.wem</Path>
+				</File>
+				<File Id="358994641" Language="SFX">
+					<ShortName>Heartbeat 4.wav</ShortName>
+					<Path>SFX\Heartbeat 4_E6B203BB.wem</Path>
+				</File>
+				<File Id="388958050" Language="SFX">
+					<ShortName>Heartbeat 3.wav</ShortName>
+					<Path>SFX\Heartbeat 3_E557ECA9.wem</Path>
+				</File>
+				<File Id="501577973" Language="SFX">
+					<ShortName>Heartbeat 5.wav</ShortName>
+					<Path>SFX\Heartbeat 5_04A3B84A.wem</Path>
+				</File>
+				<File Id="550204226" Language="SFX">
+					<ShortName>Seagulls.wav</ShortName>
+					<Path>SFX\Seagulls_10C4C929.wem</Path>
+				</File>
+				<File Id="664005210" Language="SFX">
+					<ShortName>Ambience.wav</ShortName>
+					<Path>SFX\Ambience_D79FB2B7.wem</Path>
+				</File>
+				<File Id="935243439" Language="SFX">
+					<ShortName>Heartbeat 2.wav</ShortName>
+					<Path>SFX\Heartbeat 2_87012581.wem</Path>
+				</File>
+				<File Id="954761023" Language="SFX">
+					<ShortName>Heartbeat 6.wav</ShortName>
+					<Path>SFX\Heartbeat 6_6CA566B1.wem</Path>
+				</File>
+				<File Id="1008229223" Language="SFX">
+					<ShortName>Car Passing 2.wav</ShortName>
+					<Path>SFX\Car Passing 2_10C4C929.wem</Path>
+				</File>
+				<File Id="1071724801" Language="SFX">
+					<ShortName>Car Passing 3.wav</ShortName>
+					<Path>SFX\Car Passing 3_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX" Hash="3297753732">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2932040671" Name="Play_Music" ObjectPath="\Events\Default Work Unit\Music\Play_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="19662563" Language="SFX">
+							<ShortName>MUSIC\Music-Violin-Main-2_100bpm4-4_L8M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Violin-Main-2_100bpm4-4_L8M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="37316991" Language="SFX">
+							<ShortName>MUSIC\Music-Cello-Bridge-1_100bpm4-4_L4M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Cello-Bridge-1_100bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="65106187" Language="SFX">
+							<ShortName>MUSIC\Music-Viola-Bridge-2_100bpm4-4_L4M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Viola-Bridge-2_100bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="89747746" Language="SFX">
+							<ShortName>Viola Sting C.wav</ShortName>
+							<Path>SFX\Viola Sting C_D79FB2B7.wem</Path>
+						</File>
+						<File Id="154686973" Language="SFX">
+							<ShortName>Violin Sting C.wav</ShortName>
+							<Path>SFX\Violin Sting C_D79FB2B7.wem</Path>
+						</File>
+						<File Id="157582725" Language="SFX">
+							<ShortName>MUSIC\Music-Bass-Bridge-2_100bpm4-4_L4M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Bass-Bridge-2_100bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="168973923" Language="SFX">
+							<ShortName>MUSIC\Music-Violin-Intro_100bpm4-4_L2M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Violin-Intro_100bpm4-4_L2M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="173811338" Language="SFX">
+							<ShortName>MUSIC\Music-Violin-Bridge-2_100bpm4-4_L4M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Violin-Bridge-2_100bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="194624502" Language="SFX">
+							<ShortName>Bass Sting C.wav</ShortName>
+							<Path>SFX\Bass Sting C_D79FB2B7.wem</Path>
+						</File>
+						<File Id="237358034" Language="SFX">
+							<ShortName>Cello Sting C.wav</ShortName>
+							<Path>SFX\Cello Sting C_D79FB2B7.wem</Path>
+						</File>
+						<File Id="340006888" Language="SFX">
+							<ShortName>MUSIC\Music-Bass-Main-2_100bpm4-4_L8M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Bass-Main-2_100bpm4-4_L8M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="344283988" Language="SFX">
+							<ShortName>MUSIC\Music-Cello-Main-2_100bpm4-4_L8M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Cello-Main-2_100bpm4-4_L8M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="350021281" Language="SFX">
+							<ShortName>MUSIC\Music-Viola-Main-1_100bpm4-4_L8M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Viola-Main-1_100bpm4-4_L8M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="376939138" Language="SFX">
+							<ShortName>MUSIC\Music-Viola-Bridge-1_100bpm4-4_L4M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Viola-Bridge-1_100bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="407008473" Language="SFX">
+							<ShortName>MUSIC\Music-Bass-Bridge-1_100bpm4-4_L4M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Bass-Bridge-1_100bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="474767484" Language="SFX">
+							<ShortName>Cello Sting B.wav</ShortName>
+							<Path>SFX\Cello Sting B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="527236080" Language="SFX">
+							<ShortName>MUSIC\Music-Cello-Bridge-2_100bpm4-4_L4M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Cello-Bridge-2_100bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="573075285" Language="SFX">
+							<ShortName>Bass Sting B.wav</ShortName>
+							<Path>SFX\Bass Sting B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="641965397" Language="SFX">
+							<ShortName>MUSIC\Music-Bass-Main-1_100bpm4-4_L8M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Bass-Main-1_100bpm4-4_L8M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="711609787" Language="SFX">
+							<ShortName>MUSIC\Music-Violin-Bridge-1_100bpm4-4_L4M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Violin-Bridge-1_100bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="729340515" Language="SFX">
+							<ShortName>MUSIC\Music-Bass-Intro_100bpm4-4_L2M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Bass-Intro_100bpm4-4_L2M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="735263174" Language="SFX">
+							<ShortName>Viola Sting B.wav</ShortName>
+							<Path>SFX\Viola Sting B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="756525438" Language="SFX">
+							<ShortName>MUSIC\Music-Violin-Main-1_100bpm4-4_L8M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Violin-Main-1_100bpm4-4_L8M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="802585476" Language="SFX">
+							<ShortName>Violin Sting B.wav</ShortName>
+							<Path>SFX\Violin Sting B_D79FB2B7.wem</Path>
+						</File>
+						<File Id="932885924" Language="SFX">
+							<ShortName>MUSIC\Music-Cello-Main-1_100bpm4-4_L8M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Cello-Main-1_100bpm4-4_L8M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1049011118" Language="SFX">
+							<ShortName>MUSIC\Music-Viola-Main-2_100bpm4-4_L8M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Viola-Main-2_100bpm4-4_L8M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1053285044" Language="SFX">
+							<ShortName>MUSIC\Music-Cello-Intro_100bpm4-4_L2M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Cello-Intro_100bpm4-4_L2M-P0_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1059299020" Language="SFX">
+							<ShortName>MUSIC\Music-Viola-Intro_100bpm4-4_L2M-P0.wav</ShortName>
+							<Path>SFX\MUSIC\Music-Viola-Intro_100bpm4-4_L2M-P0_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="754369548" Name="Play_Stinger" ObjectPath="\Events\Default Work Unit\Music\Play_Stinger" MaxAttenuation="48." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1968328302" Name="Set_Bass_Playing_Off" ObjectPath="\Events\Default Work Unit\Music\Bass\Set_Bass_Playing_Off" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="930712164" Name="Off" ObjectPath="\Switches\Default Work Unit\Music\Bass_Playing\Off"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="443506384" Name="Set_Bass_Playing_On" ObjectPath="\Events\Default Work Unit\Music\Bass\Set_Bass_Playing_On" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="1651971902" Name="On" ObjectPath="\Switches\Default Work Unit\Music\Bass_Playing\On"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="4164588532" Name="Set_Cello_Playing_Off" ObjectPath="\Events\Default Work Unit\Music\Cello\Set_Cello_Playing_Off" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="930712164" Name="Off" ObjectPath="\Switches\Default Work Unit\Music\Cello_Playing\Off"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="27402606" Name="Set_Cello_Playing_On" ObjectPath="\Events\Default Work Unit\Music\Cello\Set_Cello_Playing_On" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="1651971902" Name="On" ObjectPath="\Switches\Default Work Unit\Music\Cello_Playing\On"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="4015526953" Name="Set_Music_Key_Switch_B" ObjectPath="\Events\Default Work Unit\Music\Set_Music_Key_Switch_B" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2279419299" Name="B_Minor" ObjectPath="\Switches\Default Work Unit\Music\Music_Key\B_Minor"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="4015526952" Name="Set_Music_Key_Switch_C" ObjectPath="\Events\Default Work Unit\Music\Set_Music_Key_Switch_C" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="3947233186" Name="C_Major" ObjectPath="\Switches\Default Work Unit\Music\Music_Key\C_Major"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="15315860" Name="Set_Viola_Playing_Off" ObjectPath="\Events\Default Work Unit\Music\Viola\Set_Viola_Playing_Off" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="930712164" Name="Off" ObjectPath="\Switches\Default Work Unit\Music\Viola_Playing\Off"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="1657027470" Name="Set_Viola_Playing_On" ObjectPath="\Events\Default Work Unit\Music\Viola\Set_Viola_Playing_On" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="1651971902" Name="On" ObjectPath="\Switches\Default Work Unit\Music\Viola_Playing\On"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="2128560376" Name="Set_Violin_Playing_Off" ObjectPath="\Events\Default Work Unit\Music\Violin\Set_Violin_Playing_Off" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="930712164" Name="Off" ObjectPath="\Switches\Default Work Unit\Music\Violin_Playing\Off"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="882775970" Name="Set_Violin_Playing_On" ObjectPath="\Events\Default Work Unit\Music\Violin\Set_Violin_Playing_On" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="1651971902" Name="On" ObjectPath="\Switches\Default Work Unit\Music\Violin_Playing\On"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="3205063286" Name="Stop_Stinger" ObjectPath="\Events\Default Work Unit\Music\Stop_Stinger" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="19662563" Language="SFX">
+					<ShortName>MUSIC\Music-Violin-Main-2_100bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Violin-Main-2_100bpm4-4_L8M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="37316991" Language="SFX">
+					<ShortName>MUSIC\Music-Cello-Bridge-1_100bpm4-4_L4M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Cello-Bridge-1_100bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="65106187" Language="SFX">
+					<ShortName>MUSIC\Music-Viola-Bridge-2_100bpm4-4_L4M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Viola-Bridge-2_100bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="89747746" Language="SFX">
+					<ShortName>Viola Sting C.wav</ShortName>
+					<Path>SFX\Viola Sting C_D79FB2B7.wem</Path>
+				</File>
+				<File Id="154686973" Language="SFX">
+					<ShortName>Violin Sting C.wav</ShortName>
+					<Path>SFX\Violin Sting C_D79FB2B7.wem</Path>
+				</File>
+				<File Id="157582725" Language="SFX">
+					<ShortName>MUSIC\Music-Bass-Bridge-2_100bpm4-4_L4M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Bass-Bridge-2_100bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="168973923" Language="SFX">
+					<ShortName>MUSIC\Music-Violin-Intro_100bpm4-4_L2M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Violin-Intro_100bpm4-4_L2M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="173811338" Language="SFX">
+					<ShortName>MUSIC\Music-Violin-Bridge-2_100bpm4-4_L4M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Violin-Bridge-2_100bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="194624502" Language="SFX">
+					<ShortName>Bass Sting C.wav</ShortName>
+					<Path>SFX\Bass Sting C_D79FB2B7.wem</Path>
+				</File>
+				<File Id="237358034" Language="SFX">
+					<ShortName>Cello Sting C.wav</ShortName>
+					<Path>SFX\Cello Sting C_D79FB2B7.wem</Path>
+				</File>
+				<File Id="340006888" Language="SFX">
+					<ShortName>MUSIC\Music-Bass-Main-2_100bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Bass-Main-2_100bpm4-4_L8M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="344283988" Language="SFX">
+					<ShortName>MUSIC\Music-Cello-Main-2_100bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Cello-Main-2_100bpm4-4_L8M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="350021281" Language="SFX">
+					<ShortName>MUSIC\Music-Viola-Main-1_100bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Viola-Main-1_100bpm4-4_L8M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="376939138" Language="SFX">
+					<ShortName>MUSIC\Music-Viola-Bridge-1_100bpm4-4_L4M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Viola-Bridge-1_100bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="407008473" Language="SFX">
+					<ShortName>MUSIC\Music-Bass-Bridge-1_100bpm4-4_L4M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Bass-Bridge-1_100bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="474767484" Language="SFX">
+					<ShortName>Cello Sting B.wav</ShortName>
+					<Path>SFX\Cello Sting B_D79FB2B7.wem</Path>
+				</File>
+				<File Id="527236080" Language="SFX">
+					<ShortName>MUSIC\Music-Cello-Bridge-2_100bpm4-4_L4M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Cello-Bridge-2_100bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="573075285" Language="SFX">
+					<ShortName>Bass Sting B.wav</ShortName>
+					<Path>SFX\Bass Sting B_D79FB2B7.wem</Path>
+				</File>
+				<File Id="641965397" Language="SFX">
+					<ShortName>MUSIC\Music-Bass-Main-1_100bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Bass-Main-1_100bpm4-4_L8M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="711609787" Language="SFX">
+					<ShortName>MUSIC\Music-Violin-Bridge-1_100bpm4-4_L4M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Violin-Bridge-1_100bpm4-4_L4M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="729340515" Language="SFX">
+					<ShortName>MUSIC\Music-Bass-Intro_100bpm4-4_L2M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Bass-Intro_100bpm4-4_L2M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="735263174" Language="SFX">
+					<ShortName>Viola Sting B.wav</ShortName>
+					<Path>SFX\Viola Sting B_D79FB2B7.wem</Path>
+				</File>
+				<File Id="756525438" Language="SFX">
+					<ShortName>MUSIC\Music-Violin-Main-1_100bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Violin-Main-1_100bpm4-4_L8M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="802585476" Language="SFX">
+					<ShortName>Violin Sting B.wav</ShortName>
+					<Path>SFX\Violin Sting B_D79FB2B7.wem</Path>
+				</File>
+				<File Id="932885924" Language="SFX">
+					<ShortName>MUSIC\Music-Cello-Main-1_100bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Cello-Main-1_100bpm4-4_L8M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1049011118" Language="SFX">
+					<ShortName>MUSIC\Music-Viola-Main-2_100bpm4-4_L8M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Viola-Main-2_100bpm4-4_L8M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1053285044" Language="SFX">
+					<ShortName>MUSIC\Music-Cello-Intro_100bpm4-4_L2M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Cello-Intro_100bpm4-4_L2M-P0_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1059299020" Language="SFX">
+					<ShortName>MUSIC\Music-Viola-Intro_100bpm4-4_L2M-P0.wav</ShortName>
+					<Path>SFX\MUSIC\Music-Viola-Intro_100bpm4-4_L2M-P0_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="4143496951" Name="Anxiety" ObjectPath="\Game Parameters\Default Work Unit\Anxiety"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="209381827" Name="Viola_Playing" ObjectPath="\Switches\Default Work Unit\Music\Viola_Playing" GUID="{C1C38D93-4E75-4253-98A0-3B8FEDFE0C9B}">
+					<Switches>
+						<Switch Id="1651971902" Name="On" ObjectPath="\Switches\Default Work Unit\Music\Viola_Playing\On" GUID="{E55A0EF7-4FC5-4E1C-A7C5-BA8CC5942075}"/>
+						<Switch Id="930712164" Name="Off" ObjectPath="\Switches\Default Work Unit\Music\Viola_Playing\Off" GUID="{B2B29B49-E4D9-4C22-AC13-4CA72E9AE1C1}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="466257165" Name="Violin_Playing" ObjectPath="\Switches\Default Work Unit\Music\Violin_Playing" GUID="{332C33A0-803F-430C-9F82-69B8224D7493}">
+					<Switches>
+						<Switch Id="1651971902" Name="On" ObjectPath="\Switches\Default Work Unit\Music\Violin_Playing\On" GUID="{7076075D-7672-49EF-AFE8-D008B0F1B1F6}"/>
+						<Switch Id="930712164" Name="Off" ObjectPath="\Switches\Default Work Unit\Music\Violin_Playing\Off" GUID="{94E36CA0-AAA7-439F-897B-E9816DDA9AD4}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="930712164" Name="Off" ObjectPath="\Switches\Default Work Unit\Music\Bass_Playing\Off" GUID="{C0A3FFE2-1719-44B8-A70B-DF9416B1E847}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="1651971902" Name="On" ObjectPath="\Switches\Default Work Unit\Music\Bass_Playing\On" GUID="{C621EE67-3497-413D-9EB7-F5ACA15C5B5C}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="1707800063" Name="Bass_Playing" ObjectPath="\Switches\Default Work Unit\Music\Bass_Playing" GUID="{8789DCF8-EB4D-45DB-AC82-382FA63B5F1E}">
+					<Switches>
+						<Switch Id="1651971902" Name="On" ObjectPath="\Switches\Default Work Unit\Music\Bass_Playing\On" GUID="{C621EE67-3497-413D-9EB7-F5ACA15C5B5C}"/>
+						<Switch Id="930712164" Name="Off" ObjectPath="\Switches\Default Work Unit\Music\Bass_Playing\Off" GUID="{C0A3FFE2-1719-44B8-A70B-DF9416B1E847}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2097398747" Name="Cello_Playing" ObjectPath="\Switches\Default Work Unit\Music\Cello_Playing" GUID="{EECBE48A-0CD2-4211-99A2-7C4FFA2FA5C0}">
+					<Switches>
+						<Switch Id="1651971902" Name="On" ObjectPath="\Switches\Default Work Unit\Music\Cello_Playing\On" GUID="{ADC9A625-E50C-4C1D-B424-B657CA5605EA}"/>
+						<Switch Id="930712164" Name="Off" ObjectPath="\Switches\Default Work Unit\Music\Cello_Playing\Off" GUID="{0228D623-5755-4B74-B803-D5917F09202F}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2279419299" Name="B_Minor" ObjectPath="\Switches\Default Work Unit\Music\Music_Key\B_Minor" GUID="{9285C408-643D-4DFF-B190-2A36E13D072C}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="3947233186" Name="C_Major" ObjectPath="\Switches\Default Work Unit\Music\Music_Key\C_Major" GUID="{34D52CA7-7E58-4927-BD8B-37843E14556C}">
+					<Switches/>
+				</SwitchGroup>
+			</SwitchGroups>
+			<Triggers>
+				<Trigger Id="2176606480" Name="Down_Stinger_C" ObjectPath="\Triggers\Default Work Unit\Down_Stinger_C"/>
+				<Trigger Id="2176606481" Name="Down_Stinger_B" ObjectPath="\Triggers\Default Work Unit\Down_Stinger_B"/>
+			</Triggers>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

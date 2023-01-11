@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{290C7058-D1F6-4B96-892C-778AEAEFBD37}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{290C7058-D1F6-4B96-892C-778AEAEFBD37}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Main Soundcaster" ID="{EA5B95FB-4898-4972-BCB4-A1CA6946904B}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Heartbeat" ID="{A4B09A4D-37EC-41B9-A4EF-055C0B6A7247}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footsteps" ID="{100441CB-DD7D-488D-88B2-724F25109AE6}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Live Strings" ID="{88875B8B-9B3E-484D-A904-AEFAD332B3C2}" WorkUnitID="{4F3291F0-1EAD-40FB-B908-1287A14854A7}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music Stinger Switch" ID="{DC6FFC55-CECE-440E-ACBC-6BCD3A67E703}" WorkUnitID="{4F3291F0-1EAD-40FB-B908-1287A14854A7}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Anxiety" ID="{164D2875-BAF7-4342-8E34-35A7F0E66D3A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MusicVolume" ID="{5F493042-4167-47D5-80F2-F5D88428DF89}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="MasterVolume" ID="{3FD95514-5C5E-4F1D-88A9-B3BB596F3D83}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SFXVolume" ID="{D1745684-4007-4F74-BE75-0A4A0FA6DF2A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Off" ID="{0228D623-5755-4B74-B803-D5917F09202F}"/>
+						<CurrentSwitchRef Name="Off" ID="{B2B29B49-E4D9-4C22-AC13-4CA72E9AE1C1}"/>
+						<CurrentSwitchRef Name="Off" ID="{94E36CA0-AAA7-439F-897B-E9816DDA9AD4}"/>
+						<CurrentSwitchRef Name="Off" ID="{C0A3FFE2-1719-44B8-A70B-DF9416B1E847}"/>
+						<CurrentSwitchRef Name="B_Minor" ID="{9285C408-643D-4DFF-B190-2A36E13D072C}"/>
+						<CurrentSwitchRef Name="Stone" ID="{7D245F1D-FC0B-4B10-A149-094A41E01E41}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

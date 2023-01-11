@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3319673256	Stop_Heartbeat			\Default Work Unit\Heartbeat\Stop_Heartbeat	
+	3765695918	Play_Heartbeat			\Default Work Unit\Heartbeat\Play_Heartbeat	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4143496951	Anxiety			\Default Work Unit\Anxiety	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	240417033	Heartbeat 7	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Heartbeat 7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Heartbeat 7		74384
+	271812949	Heartbeat 1	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Heartbeat 1_E50830D8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Heartbeat 1		74632
+	358994641	Heartbeat 4	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Heartbeat 4_E6B203BB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Heartbeat 4		74552
+	388958050	Heartbeat 3	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Heartbeat 3_E557ECA9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Heartbeat 3		74776
+	501577973	Heartbeat 5	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Heartbeat 5_04A3B84A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Heartbeat 5		74228
+	935243439	Heartbeat 2	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Heartbeat 2_87012581.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Heartbeat 2		74352
+	954761023	Heartbeat 6	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Heartbeat 6_6CA566B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Heartbeat\Heartbeat 6		74772
+

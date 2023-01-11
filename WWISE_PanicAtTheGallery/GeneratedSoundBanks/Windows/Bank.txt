@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	311910498	Play_click			\Default Work Unit\Play_click	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	180805551	click	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\click_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\click		14456
+

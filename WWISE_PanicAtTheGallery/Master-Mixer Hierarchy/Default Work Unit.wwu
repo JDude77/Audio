@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0414EF9D-E0CE-4D22-B9C8-C640A4574931}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{0414EF9D-E0CE-4D22-B9C8-C640A4574931}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{B9C7A93D-3171-4915-8E8E-460B9BFEB062}" ShortID="491543730">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MasterVolume" ID="{3FD95514-5C5E-4F1D-88A9-B3BB596F3D83}" WorkUnitID="{310DFCE3-4A72-4759-9E62-EAC588F8DD53}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{512FD2C9-FA86-43D9-8F9F-555C86EBC210}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{0D876B10-AC7A-4B2F-A5BF-5EA926E86F3D}" WorkUnitID="{8F05C07A-A063-4F30-A6BD-6D4577754921}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{5232D0F1-B9E0-4730-9C1D-E3E1AD2D1368}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{4FB7ACDA-CD5A-44D4-BCE6-2CC7E76704FC}" ShortID="308149501">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MusicVolume" ID="{5F493042-4167-47D5-80F2-F5D88428DF89}" WorkUnitID="{310DFCE3-4A72-4759-9E62-EAC588F8DD53}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{13CD4EBB-AB79-422A-A05B-346F48FA60F8}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+						<AuxBus Name="Small_Gallery" ID="{D9CF0E6D-0AF1-41B3-8F9E-329735A89881}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="GameAuxSendLPF" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{8E05C421-6282-4FDD-99EE-6A0D970A204C}" ShortID="680733301">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Anxiety" ID="{164D2875-BAF7-4342-8E34-35A7F0E66D3A}" WorkUnitID="{310DFCE3-4A72-4759-9E62-EAC588F8DD53}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{65B1D274-CF53-4A27-8979-12B64E81991D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>10</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{577F1466-A63B-47F7-98BD-C56E433F8B5D}">
+										<Effect Name="Room_Small (Custom)" ID="{4A905B64-148E-4C1C-87E5-253AE349AFC5}" ShortID="128301099" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="0.7">
+													<RTPCList>
+														<RTPC Name="" ID="{9EFD0F5A-DFEA-4F63-9AD6-056DFD16F256}" ShortID="615774746">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Anxiety" ID="{164D2875-BAF7-4342-8E34-35A7F0E66D3A}" WorkUnitID="{310DFCE3-4A72-4759-9E62-EAC588F8DD53}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{D249DA53-D996-407F-A3CA-902BA7544EC6}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0.7</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>50</XPos>
+																		<YPos>0.7</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>3.5</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Density" Type="Real32" Value="44"/>
+												<Property Name="Diffusion" Type="Real32" Value="46"/>
+												<Property Name="ERLevel" Type="Real32" Value="-23"/>
+												<Property Name="ERPattern" Type="int32" Value="22"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+												<Property Name="Filter3Gain" Type="Real32" Value="-4.5"/>
+												<Property Name="HFDamping" Type="Real32" Value="2.7"/>
+												<Property Name="PreDelay" Type="Real32" Value="12"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-22">
+													<RTPCList>
+														<RTPC Name="" ID="{15D29365-16A1-4F1A-8C2F-82DF411747FC}" ShortID="45287197">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Anxiety" ID="{164D2875-BAF7-4342-8E34-35A7F0E66D3A}" WorkUnitID="{310DFCE3-4A72-4759-9E62-EAC588F8DD53}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{47E117D7-7CF4-4135-8174-75EF767CD4F1}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-22</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Constant</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>50</XPos>
+																		<YPos>-22</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-10</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="RoomShape" Type="Real32" Value="55"/>
+												<Property Name="RoomSize" Type="Real32" Value="20"/>
+												<Property Name="StereoWidth" Type="Real32" Value="90"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Toilet" ID="{37756E8E-B684-45AE-9CFA-303820476830}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="GameAuxSendLPF" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{357A3358-D845-40DB-836E-7844CD9D057E}" ShortID="756271464">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Anxiety" ID="{164D2875-BAF7-4342-8E34-35A7F0E66D3A}" WorkUnitID="{310DFCE3-4A72-4759-9E62-EAC588F8DD53}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2B15B804-D72E-49E3-BE93-1A87485C0E91}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>10</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{824764DD-7364-411D-AF50-DEDF8E3DCC48}">
+										<Effect Name="Dirty_Washing_Machine (Custom)" ID="{B5EA0E19-897A-4F99-BDBE-8DCC80FA2A71}" ShortID="309032586" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="0.3"/>
+												<Property Name="Density" Type="Real32" Value="19"/>
+												<Property Name="Diffusion" Type="Real32" Value="55"/>
+												<Property Name="ERLevel" Type="Real32" Value="-17">
+													<RTPCList>
+														<RTPC Name="" ID="{B956B0D6-4B43-4502-9A92-F6A4BFC72B8C}" ShortID="417163318">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Anxiety" ID="{164D2875-BAF7-4342-8E34-35A7F0E66D3A}" WorkUnitID="{310DFCE3-4A72-4759-9E62-EAC588F8DD53}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{1F251EAC-06EC-43EA-9348-F60016129517}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-17</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Constant</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>70</XPos>
+																		<YPos>-17</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-20</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="ERPattern" Type="int32" Value="26"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="590"/>
+												<Property Name="Filter1Gain" Type="Real32" Value="-7"/>
+												<Property Name="Filter2Freq" Type="Real32" Value="780"/>
+												<Property Name="Filter2Gain" Type="Real32" Value="12"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+												<Property Name="Filter3Gain" Type="Real32" Value="0.5"/>
+												<Property Name="HFDamping" Type="Real32" Value="0.5"/>
+												<Property Name="PreDelay" Type="Real32" Value="12"/>
+												<Property Name="Quality" Type="int32" Value="2"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-14">
+													<RTPCList>
+														<RTPC Name="" ID="{BA4A3B81-0DBE-4F65-95C7-5F011D070637}" ShortID="544092201">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Anxiety" ID="{164D2875-BAF7-4342-8E34-35A7F0E66D3A}" WorkUnitID="{310DFCE3-4A72-4759-9E62-EAC588F8DD53}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{1477E518-D4DE-4B94-960E-D3BCB8883A1B}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-14</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Constant</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>69.86649</XPos>
+																		<YPos>-14</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-20</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="RoomShape" Type="Real32" Value="51"/>
+												<Property Name="RoomSize" Type="Real32" Value="-35"/>
+												<Property Name="StereoWidth" Type="Real32" Value="0"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Main_Gallery" ID="{12F6DC3C-865F-403A-8962-B8F9A4A3EC9C}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{3C3845B2-C76E-4634-9108-83FA43A5A7BC}">
+										<Effect Name="Hall_Medium_Bright (Custom)" ID="{D99D4B31-AEA2-4F61-959B-0D665C648A95}" ShortID="964748476" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="2.7">
+													<RTPCList>
+														<RTPC Name="" ID="{C2093DF8-D7EC-4F66-BD77-4FB1999AD72E}" ShortID="146650971">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Anxiety" ID="{164D2875-BAF7-4342-8E34-35A7F0E66D3A}" WorkUnitID="{310DFCE3-4A72-4759-9E62-EAC588F8DD53}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{D535939E-DADD-4E71-9B7B-14D18DC08F32}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>2.7</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Constant</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>50</XPos>
+																		<YPos>2.7</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>4.5</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="Density" Type="Real32" Value="70"/>
+												<Property Name="Diffusion" Type="Real32" Value="76"/>
+												<Property Name="ERLevel" Type="Real32" Value="-23"/>
+												<Property Name="ERPattern" Type="int32" Value="15"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="600"/>
+												<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
+												<Property Name="Filter2Freq" Type="Real32" Value="2000"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="6500"/>
+												<Property Name="Filter3Gain" Type="Real32" Value="3"/>
+												<Property Name="HFDamping" Type="Real32" Value="1.8"/>
+												<Property Name="PreDelay" Type="Real32" Value="50"/>
+												<Property Name="Quality" Type="int32" Value="14"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-30">
+													<RTPCList>
+														<RTPC Name="" ID="{AB2355BC-8914-4589-AE58-428B79C2D39D}" ShortID="804240231">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="Anxiety" ID="{164D2875-BAF7-4342-8E34-35A7F0E66D3A}" WorkUnitID="{310DFCE3-4A72-4759-9E62-EAC588F8DD53}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{CC7442D5-B06E-4156-83FA-95E27EBE7A9D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-30</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Constant</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>50</XPos>
+																		<YPos>-30</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>-15</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="RoomShape" Type="Real32" Value="55"/>
+												<Property Name="RoomSize" Type="Real32" Value="30"/>
+												<Property Name="StereoWidth" Type="Real32" Value="165"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Outside" ID="{673F38AF-48C7-40C6-BF53-70841DA8592C}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+								<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom CreatedFrom="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}">
+										<Effect Name="Have_U_Ever_Been_Outside (Custom)" ID="{0134B640-2BCC-4BFC-A633-18A4C8C8FDB5}" ShortID="18017219" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+											<PropertyList>
+												<Property Name="DecayTime" Type="Real32" Value="1"/>
+												<Property Name="Density" Type="Real32" Value="50"/>
+												<Property Name="ERLevel" Type="Real32" Value="-18"/>
+												<Property Name="ERPattern" Type="int32" Value="29"/>
+												<Property Name="Filter1Freq" Type="Real32" Value="210"/>
+												<Property Name="Filter1Gain" Type="Real32" Value="1.5"/>
+												<Property Name="Filter2Freq" Type="Real32" Value="6830"/>
+												<Property Name="Filter2Gain" Type="Real32" Value="-7.5"/>
+												<Property Name="Filter2Q" Type="Real32" Value="0.65"/>
+												<Property Name="Filter3Freq" Type="Real32" Value="8440"/>
+												<Property Name="Filter3Gain" Type="Real32" Value="-4"/>
+												<Property Name="HFDamping" Type="Real32" Value="5.05"/>
+												<Property Name="PreDelay" Type="Real32" Value="145"/>
+												<Property Name="Quality" Type="int32" Value="12"/>
+												<Property Name="ReverbLevel" Type="Real32" Value="-37"/>
+												<Property Name="RoomSize" Type="Real32" Value="73"/>
+												<Property Name="StereoWidth" Type="Real32" Value="28"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+						<Bus Name="SFX" ID="{B3DF612B-320D-4858-B3B2-FB84B0333AD5}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{7067865E-8270-427F-A60D-EF732BB90D5A}" ShortID="467404046">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXVolume" ID="{D1745684-4007-4F74-BE75-0A4A0FA6DF2A}" WorkUnitID="{310DFCE3-4A72-4759-9E62-EAC588F8DD53}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{10789EFD-341C-4CED-A99D-131747602AE2}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>16</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

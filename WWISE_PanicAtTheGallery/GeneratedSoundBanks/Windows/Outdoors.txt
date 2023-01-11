@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	82798741	Stop_OutdoorsBlendContainer			\Default Work Unit\Exterior\Stop_OutdoorsBlendContainer	
+	606952887	Play_OutdoorsHeartbeat			\Default Work Unit\Exterior\Play_OutdoorsHeartbeat	
+	2095862519	Play_OutdoorsBlendContainer			\Default Work Unit\Exterior\Play_OutdoorsBlendContainer	
+	2243099949	Stop_OutdoorsHeartbeat			\Default Work Unit\Exterior\Stop_OutdoorsHeartbeat	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	147418415	Car 1	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Car Passing 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Outdoors Blend Container\Cars Passing\Car 1		2850096
+	240417033	Heartbeat 7	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Heartbeat 7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Outdoors Blend Container\Heartbeat Outdoors\Heartbeat 7		74384
+	271812949	Heartbeat 1	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Heartbeat 1_E50830D8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Outdoors Blend Container\Heartbeat Outdoors\Heartbeat 1		74632
+	358994641	Heartbeat 4	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Heartbeat 4_E6B203BB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Outdoors Blend Container\Heartbeat Outdoors\Heartbeat 4		74552
+	388958050	Heartbeat 3	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Heartbeat 3_E557ECA9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Outdoors Blend Container\Heartbeat Outdoors\Heartbeat 3		74776
+	501577973	Heartbeat 5	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Heartbeat 5_04A3B84A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Outdoors Blend Container\Heartbeat Outdoors\Heartbeat 5		74228
+	550204226	Seagulls	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Seagulls_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Outdoors Blend Container\Seagulls\Seagulls		653540
+	664005210	Ambience	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Ambience_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Outdoors Blend Container\Ambience		5549520
+	935243439	Heartbeat 2	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Heartbeat 2_87012581.wem		\Actor-Mixer Hierarchy\Default Work Unit\Outdoors Blend Container\Heartbeat Outdoors\Heartbeat 2		74352
+	954761023	Heartbeat 6	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Heartbeat 6_6CA566B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Outdoors Blend Container\Heartbeat Outdoors\Heartbeat 6		74772
+	1008229223	Car 2	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Car Passing 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Outdoors Blend Container\Cars Passing\Car 2		2636452
+	1071724801	Car 3	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Car Passing 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Outdoors Blend Container\Cars Passing\Car 3		2636528
+

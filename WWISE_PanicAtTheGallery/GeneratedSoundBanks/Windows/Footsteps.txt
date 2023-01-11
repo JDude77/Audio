@@ -1,0 +1,34 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3854155799	Play_Footsteps			\Default Work Unit\Footsteps\Play_Footsteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	1216965916	Stone	Footsteps			
+	2058049674	Wood	Footsteps			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4143496951	Anxiety			\Default Work Unit\Anxiety	
+
+Effect plug-ins	ID	Name	Type				Notes
+	535667444	Bathroom1	Wwise Matrix Reverb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	4052048	Step_Wood_2	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Step_Wood_2_0790E913.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\Step_Wood_2		102872
+	106064177	Step_Wood_4	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Step_Wood_4_0790E913.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\Step_Wood_4		101996
+	125385592	Step_Stone_7	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Step_Stone_7_F73F3354.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step_Stone_7		105888
+	178409484	Step_Wood_6	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Step_Wood_6_0790E913.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\Step_Wood_6		99372
+	236070759	Step_Stone_1	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Step_Stone_1_F73F3354.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step_Stone_1		105892
+	249742517	Step_Stone_5	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Step_Stone_5_3BA24F5F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step_Stone_5		104072
+	386877447	Step_Stone_6	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Step_Stone_6_F73F3354.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step_Stone_6		106800
+	441713871	Step_Stone_2	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Step_Stone_2_F73F3354.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step_Stone_2		107252
+	483616072	Step_Wood_8	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Step_Wood_8_0790E913.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\Step_Wood_8		101120
+	488857075	Step_Wood_3	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Step_Wood_3_0790E913.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\Step_Wood_3		101556
+	498618253	Step_Wood_5	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Step_Wood_5_0790E913.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\Step_Wood_5		105056
+	512767837	Step_Stone_4	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Step_Stone_4_F73F3354.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step_Stone_4		106116
+	752270390	Step_Wood_7	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Step_Wood_7_0790E913.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\Step_Wood_7		99804
+	756690636	Step_Stone_8	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Step_Stone_8_F73F3354.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step_Stone_8		110432
+	787479008	Step_Wood_1	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Step_Wood_1_0790E913.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wood\Step_Wood_1		103304
+	982768815	Step_Stone_3	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Step_Stone_3_F73F3354.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step_Stone_3		102712
+

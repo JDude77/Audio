@@ -1,0 +1,52 @@
+Event	ID	Name			Wwise Object Path	Notes
+	15315860	Set_Viola_Playing_Off			\Default Work Unit\Music\Viola\Set_Viola_Playing_Off	
+	27402606	Set_Cello_Playing_On			\Default Work Unit\Music\Cello\Set_Cello_Playing_On	
+	443506384	Set_Bass_Playing_On			\Default Work Unit\Music\Bass\Set_Bass_Playing_On	
+	754369548	Play_Stinger			\Default Work Unit\Music\Play_Stinger	
+	882775970	Set_Violin_Playing_On			\Default Work Unit\Music\Violin\Set_Violin_Playing_On	
+	1657027470	Set_Viola_Playing_On			\Default Work Unit\Music\Viola\Set_Viola_Playing_On	
+	1968328302	Set_Bass_Playing_Off			\Default Work Unit\Music\Bass\Set_Bass_Playing_Off	
+	2128560376	Set_Violin_Playing_Off			\Default Work Unit\Music\Violin\Set_Violin_Playing_Off	
+	2932040671	Play_Music			\Default Work Unit\Music\Play_Music	
+	3205063286	Stop_Stinger			\Default Work Unit\Music\Stop_Stinger	
+	4015526952	Set_Music_Key_Switch_C			\Default Work Unit\Music\Set_Music_Key_Switch_C	
+	4015526953	Set_Music_Key_Switch_B			\Default Work Unit\Music\Set_Music_Key_Switch_B	
+	4164588532	Set_Cello_Playing_Off			\Default Work Unit\Music\Cello\Set_Cello_Playing_Off	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4143496951	Anxiety			\Default Work Unit\Anxiety	
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	2176606480	Down_Stinger_C			\Default Work Unit\Down_Stinger_C	
+	2176606481	Down_Stinger_B			\Default Work Unit\Down_Stinger_B	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	19662563	Music-Violin-Main-1_100bpm4-4_L8M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Violin-Main-2_100bpm4-4_L8M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Main\Music-Violin-Main-1_100bpm4-4_L8M-P0		3775088
+	37316991	Music-Cello-Bridge-1_100bpm4-4_L4M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Cello-Bridge-1_100bpm4-4_L4M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Bridge\Music-Cello-Bridge-1_100bpm4-4_L4M-P0		1932812
+	65106187	Music-Viola-Bridge-1_100bpm4-4_L4M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Viola-Bridge-2_100bpm4-4_L4M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Bridge\Music-Viola-Bridge-1_100bpm4-4_L4M-P0		2146696
+	89747746	Viola Sting C	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Viola Sting C_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Stinger Switch\Music Sting C\Viola Sting C		299820
+	154686973	Violin Sting C	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Violin Sting C_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Stinger Switch\Music Sting C\Violin Sting C		299820
+	157582725	Music-Bass-Bridge-1_100bpm4-4_L4M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Bass-Bridge-2_100bpm4-4_L4M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Bridge\Music-Bass-Bridge-1_100bpm4-4_L4M-P0		2131260
+	168973923	Music-Violin-Intro_100bpm4-4_L2M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Violin-Intro_100bpm4-4_L2M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Intro\Music-Violin-Intro_100bpm4-4_L2M-P0		975840
+	173811338	Music-Violin-Bridge-1_100bpm4-4_L4M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Violin-Bridge-2_100bpm4-4_L4M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Bridge\Music-Violin-Bridge-1_100bpm4-4_L4M-P0		1975808
+	194624502	Bass Sting C	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Bass Sting C_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Stinger Switch\Music Sting C\Bass Sting C		299820
+	237358034	Cello Sting C	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Cello Sting C_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Stinger Switch\Music Sting C\Cello Sting C		299820
+	340006888	Music-Bass-Main-1_100bpm4-4_L8M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Bass-Main-2_100bpm4-4_L8M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Main\Music-Bass-Main-1_100bpm4-4_L8M-P0		3722168
+	344283988	Music-Cello-Main-1_100bpm4-4_L8M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Cello-Main-2_100bpm4-4_L8M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Main\Music-Cello-Main-1_100bpm4-4_L8M-P0		3759652
+	350021281	Music-Viola-Main-1_100bpm4-4_L8M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Viola-Main-1_100bpm4-4_L8M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Main\Music-Viola-Main-1_100bpm4-4_L8M-P0		3746424
+	376939138	Music-Viola-Bridge-1_100bpm4-4_L4M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Viola-Bridge-1_100bpm4-4_L4M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Bridge\Music-Viola-Bridge-1_100bpm4-4_L4M-P0		1923992
+	407008473	Music-Bass-Bridge-1_100bpm4-4_L4M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Bass-Bridge-1_100bpm4-4_L4M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Bridge\Music-Bass-Bridge-1_100bpm4-4_L4M-P0		2126852
+	474767484	Cello Sting B	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Cello Sting B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Stinger Switch\Music Sting B\Cello Sting B		299820
+	527236080	Music-Cello-Bridge-1_100bpm4-4_L4M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Cello-Bridge-2_100bpm4-4_L4M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Bridge\Music-Cello-Bridge-1_100bpm4-4_L4M-P0		2065112
+	573075285	Bass Sting B	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Bass Sting B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Stinger Switch\Music Sting B\Bass Sting B		299820
+	641965397	Music-Bass-Main-1_100bpm4-4_L8M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Bass-Main-1_100bpm4-4_L8M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Main\Music-Bass-Main-1_100bpm4-4_L8M-P0		3664840
+	711609787	Music-Violin-Bridge-1_100bpm4-4_L4M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Violin-Bridge-1_100bpm4-4_L4M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Bridge\Music-Violin-Bridge-1_100bpm4-4_L4M-P0		2070624
+	729340515	Music-Bass-Intro_100bpm4-4_L2M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Bass-Intro_100bpm4-4_L2M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Intro\Music-Bass-Intro_100bpm4-4_L2M-P0		1177600
+	735263174	Viola Sting B	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Viola Sting B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Stinger Switch\Music Sting B\Viola Sting B		299820
+	756525438	Music-Violin-Main-1_100bpm4-4_L8M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Violin-Main-1_100bpm4-4_L8M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Main\Music-Violin-Main-1_100bpm4-4_L8M-P0		3722168
+	802585476	Violin Sting B	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Violin Sting B_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music Stinger Switch\Music Sting B\Violin Sting B		299820
+	932885924	Music-Cello-Main-1_100bpm4-4_L8M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Cello-Main-1_100bpm4-4_L8M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Main\Music-Cello-Main-1_100bpm4-4_L8M-P0		3618532
+	1049011118	Music-Viola-Main-1_100bpm4-4_L8M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Viola-Main-2_100bpm4-4_L8M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Main\Music-Viola-Main-1_100bpm4-4_L8M-P0		3725476
+	1053285044	Music-Cello-Intro_100bpm4-4_L2M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Cello-Intro_100bpm4-4_L2M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Intro\Music-Cello-Intro_100bpm4-4_L2M-P0		1239336
+	1059299020	Music-Viola-Intro_100bpm4-4_L2M-P0	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\MUSIC\Music-Viola-Intro_100bpm4-4_L2M-P0_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Live Strings\Intro\Music-Viola-Intro_100bpm4-4_L2M-P0		1112552
+

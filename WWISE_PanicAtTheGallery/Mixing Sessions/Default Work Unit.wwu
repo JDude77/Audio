@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{05535E1C-53FE-4588-B687-39D9DF5B9AC2}" SchemaVersion="103">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{05535E1C-53FE-4588-B687-39D9DF5B9AC2}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="Main Mixing Session" ID="{0AC1D9D7-14EE-4CC9-8CB5-65CD6E8E84C2}">
+					<ObjectList>
+						<ObjectRef Name="Music" ID="{5232D0F1-B9E0-4730-9C1D-E3E1AD2D1368}" WorkUnitID="{0414EF9D-E0CE-4D22-B9C8-C640A4574931}"/>
+						<ObjectRef Name="Heartbeat" ID="{A4B09A4D-37EC-41B9-A4EF-055C0B6A7247}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+						<ObjectRef Name="Footsteps" ID="{100441CB-DD7D-488D-88B2-724F25109AE6}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0414EF9D-E0CE-4D22-B9C8-C640A4574931}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>

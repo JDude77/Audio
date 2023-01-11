@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{59FC48B6-9155-47EF-B7E4-2DC76FDBD0DA}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{59FC48B6-9155-47EF-B7E4-2DC76FDBD0DA}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Footsteps" ID="{963DD975-CCB6-4BB5-A72D-3C08A88EAA0B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Footsteps" ID="{100441CB-DD7D-488D-88B2-724F25109AE6}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Footsteps" ID="{BA9E0902-AE80-4C7A-849D-BD09847EE82D}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Heartbeat" ID="{FE4289E5-1C6E-42B5-B5B0-4CC0509FE61C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Heartbeat" ID="{A4B09A4D-37EC-41B9-A4EF-055C0B6A7247}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Heartbeat" ID="{EA53DF74-F461-4858-A781-F49D90AC351A}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Heartbeat" ID="{52371420-F429-4DD2-BB90-8BF47090D943}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{00285053-9608-44C2-AA2C-C9838AD262EE}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Music Stinger Switch" ID="{DC6FFC55-CECE-440E-ACBC-6BCD3A67E703}" WorkUnitID="{4F3291F0-1EAD-40FB-B908-1287A14854A7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Live Strings" ID="{88875B8B-9B3E-484D-A904-AEFAD332B3C2}" WorkUnitID="{4F3291F0-1EAD-40FB-B908-1287A14854A7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{61534773-36BE-4BD4-BDCA-BC8EFC27821B}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Bathroom" ID="{B25FB07C-6E24-4565-BD73-6823452C46AD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Bathroom" ID="{04C69BB4-0882-4329-8421-3F464F9B377A}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Outdoors" ID="{977C211E-AD7E-4315-9DC8-7CF7E381910C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Exterior" ID="{9B8C6038-0755-40BF-A0BD-43068745849D}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Outdoors Blend Container" ID="{066F0315-7518-4EC9-A114-22CA1F7758C1}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

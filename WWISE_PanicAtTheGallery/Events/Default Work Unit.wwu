@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Footsteps" ID="{A12690A5-04AB-4C3C-BE3B-C8352136E4ED}" ShortID="34328554">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="22"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Footsteps" ID="{BA9E0902-AE80-4C7A-849D-BD09847EE82D}">
+							<ChildrenList>
+								<Action Name="" ID="{6DBA0710-EBB1-46E4-8B28-F5331DBC0ABC}" ShortID="575790363">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{100441CB-DD7D-488D-88B2-724F25109AE6}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{61534773-36BE-4BD4-BDCA-BC8EFC27821B}" ShortID="513426723">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="25"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Music" ID="{A9B4F25C-D7DA-4BB8-9B11-811EBDA3AC0E}">
+							<ChildrenList>
+								<Action Name="" ID="{558E1245-0D66-459A-A991-B3C0BAAE0E06}" ShortID="418452012">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Live Strings" ID="{88875B8B-9B3E-484D-A904-AEFAD332B3C2}" WorkUnitID="{4F3291F0-1EAD-40FB-B908-1287A14854A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Music_Key_Switch_B" ID="{26E05D71-09CD-4BC6-B77F-1FAD2DAB266B}">
+							<ChildrenList>
+								<Action Name="" ID="{3C78273F-26A6-4401-8EB7-59922E5E5707}" ShortID="459901641">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="B_Minor" ID="{9285C408-643D-4DFF-B190-2A36E13D072C}" WorkUnitID="{1A631D3B-0BF2-473B-BE27-93800FAD2807}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Set_Music_Key_Switch_C" ID="{A593A3E5-3C9A-43F8-8840-B5D7F4E4D3EB}">
+							<ChildrenList>
+								<Action Name="" ID="{8C47B6B1-4B54-440F-BC65-8BC5A657B943}" ShortID="674919851">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="23"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="C_Major" ID="{34D52CA7-7E58-4927-BD8B-37843E14556C}" WorkUnitID="{1A631D3B-0BF2-473B-BE27-93800FAD2807}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Stinger" ID="{1CA24B4B-7DFD-4542-9076-8E5AE7BE05D6}">
+							<ChildrenList>
+								<Action Name="" ID="{5CA33B08-4576-4A67-AC42-CFD9E835E8E2}" ShortID="22665357">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music Stinger Switch" ID="{DC6FFC55-CECE-440E-ACBC-6BCD3A67E703}" WorkUnitID="{4F3291F0-1EAD-40FB-B908-1287A14854A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Stinger" ID="{A7579427-8155-421F-9877-3007BDA076EF}">
+							<ChildrenList>
+								<Action Name="" ID="{407822C9-6097-4749-8BF5-6054C23A0F8E}" ShortID="589363295">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Music Stinger Switch" ID="{DC6FFC55-CECE-440E-ACBC-6BCD3A67E703}" WorkUnitID="{4F3291F0-1EAD-40FB-B908-1287A14854A7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="Bass" ID="{70C5A675-7979-42AA-A983-933904D09422}" ShortID="1015801481">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="25"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Event Name="Set_Bass_Playing_On" ID="{1C27A6B5-97A3-4BFF-B375-8EBBDFAD4220}">
+									<ChildrenList>
+										<Action Name="" ID="{8285E04F-BB37-465B-9A0C-0AAA0CB12FD8}" ShortID="96333714">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="23"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="On" ID="{C621EE67-3497-413D-9EB7-F5ACA15C5B5C}" WorkUnitID="{1A631D3B-0BF2-473B-BE27-93800FAD2807}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Set_Bass_Playing_Off" ID="{EE96BFE9-68E0-4012-BC96-1F531BDE2F29}">
+									<ChildrenList>
+										<Action Name="" ID="{097B124A-D216-4AC8-AF5A-3DD32CE83EAC}" ShortID="615125022">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="23"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Off" ID="{C0A3FFE2-1719-44B8-A70B-DF9416B1E847}" WorkUnitID="{1A631D3B-0BF2-473B-BE27-93800FAD2807}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Cello" ID="{6024EB42-9E8C-4B99-9E84-D792A2459D5D}" ShortID="919074306">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="25"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Event Name="Set_Cello_Playing_On" ID="{DF9E341B-9A8A-4689-907D-1E4C07936F76}">
+									<ChildrenList>
+										<Action Name="" ID="{A0790648-6EB6-4DD5-9B43-4F0D3F5F8D68}" ShortID="802511400">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="23"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="On" ID="{ADC9A625-E50C-4C1D-B424-B657CA5605EA}" WorkUnitID="{1A631D3B-0BF2-473B-BE27-93800FAD2807}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Set_Cello_Playing_Off" ID="{DA65040A-83E9-4C1C-A542-DE6E2741AC27}">
+									<ChildrenList>
+										<Action Name="" ID="{DAD996BA-7418-42CA-9D87-53D3907FAF5C}" ShortID="142144291">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="23"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Off" ID="{0228D623-5755-4B74-B803-D5917F09202F}" WorkUnitID="{1A631D3B-0BF2-473B-BE27-93800FAD2807}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Viola" ID="{5CC5BA98-5D25-4D3F-AE9E-542C0ECFF2A1}" ShortID="282452250">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="25"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Event Name="Set_Viola_Playing_Off" ID="{CF61CA2D-334A-48DF-A3E9-9551DFC2625B}">
+									<ChildrenList>
+										<Action Name="" ID="{29E57E97-C90D-4D28-AF10-F727069316B4}" ShortID="235785016">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="23"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Off" ID="{B2B29B49-E4D9-4C22-AC13-4CA72E9AE1C1}" WorkUnitID="{1A631D3B-0BF2-473B-BE27-93800FAD2807}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Set_Viola_Playing_On" ID="{43379F9B-085B-41D4-BFA6-D13A4835D287}">
+									<ChildrenList>
+										<Action Name="" ID="{E6FEFF7E-C90E-4CBE-87A4-BB430C61AD7E}" ShortID="103884484">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="23"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="On" ID="{E55A0EF7-4FC5-4E1C-A7C5-BA8CC5942075}" WorkUnitID="{1A631D3B-0BF2-473B-BE27-93800FAD2807}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Violin" ID="{820F61F0-1B9F-467B-87E9-1E644B1870BD}" ShortID="443555469">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="25"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Event Name="Set_Violin_Playing_Off" ID="{81635F39-04F3-45A7-BE8C-6F2D83C6BC9E}">
+									<ChildrenList>
+										<Action Name="" ID="{87914CAE-6918-400A-96F2-B8AAABF5E57F}" ShortID="315335922">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="23"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Off" ID="{94E36CA0-AAA7-439F-897B-E9816DDA9AD4}" WorkUnitID="{1A631D3B-0BF2-473B-BE27-93800FAD2807}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Set_Violin_Playing_On" ID="{7AC8ABFB-1226-47E9-BA41-36452E6E9B96}">
+									<ChildrenList>
+										<Action Name="" ID="{05A848C7-BEA8-46AA-A5B2-4EF87FE9F738}" ShortID="617726304">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="23"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="On" ID="{7076075D-7672-49EF-AFE8-D008B0F1B1F6}" WorkUnitID="{1A631D3B-0BF2-473B-BE27-93800FAD2807}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Heartbeat" ID="{5144966F-10E0-4097-8B2F-3591CA50E41F}" ShortID="246870249">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="23"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_Heartbeat" ID="{52371420-F429-4DD2-BB90-8BF47090D943}">
+							<ChildrenList>
+								<Action Name="" ID="{E76ABDBF-8CE7-49FF-A342-FD79C39AC63C}" ShortID="539059542">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heartbeat" ID="{A4B09A4D-37EC-41B9-A4EF-055C0B6A7247}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Heartbeat" ID="{EA53DF74-F461-4858-A781-F49D90AC351A}">
+							<ChildrenList>
+								<Action Name="" ID="{010220B7-8F44-4A9E-8557-F588C8201851}" ShortID="850597059">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heartbeat" ID="{A4B09A4D-37EC-41B9-A4EF-055C0B6A7247}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Bathroom" ID="{04C69BB4-0882-4329-8421-3F464F9B377A}" ShortID="475947338">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="15"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Folder Name="Door" ID="{76AD2C7D-D89D-4597-B736-49B7077CDB8E}" ShortID="391257241">
+							<ChildrenList>
+								<Event Name="Play_BathroomDoorClick" ID="{98E0AE48-DB46-40E8-99BD-B956863B68AE}">
+									<ChildrenList>
+										<Action Name="" ID="{D8BFE9DB-7A9E-4DF3-8515-C25ED9E1BE15}" ShortID="713066757">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Click" ID="{0D72060E-0D7D-40DA-8BFB-968D29C7BA5A}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_BathroomDoorThud" ID="{E8FEDCB9-800D-41B5-B902-1BFB498C1AD2}">
+									<ChildrenList>
+										<Action Name="" ID="{0954FD0D-4B98-4CE5-B8E6-C302A34469F7}" ShortID="1008150420">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Thud" ID="{13636EC7-9504-4407-AF85-FF16B49ADF1B}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_BathroomDoorImpact" ID="{537FF9BE-0053-483C-AC03-79690FBD6D90}">
+									<ChildrenList>
+										<Action Name="" ID="{FBE3FCBA-11B4-4D15-9B7F-64A06FA0203E}" ShortID="245655596">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Impact" ID="{85A18F81-2282-4421-8FF3-D7CB3FC02BC2}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_BathroomDoorSounds" ID="{ACB0FA14-0DBD-4DF0-8D92-979214080DB9}">
+									<ChildrenList>
+										<Action Name="" ID="{B3C2177B-D366-402D-B3E9-7E0EADEE6C70}" ShortID="524523662">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Click" ID="{0D72060E-0D7D-40DA-8BFB-968D29C7BA5A}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{7BC8241C-19FE-4B70-843C-A6D5B3D2B853}" ShortID="1016903410">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Impact" ID="{85A18F81-2282-4421-8FF3-D7CB3FC02BC2}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{1974F518-F489-4522-BA01-FD5FA303C9FB}" ShortID="356849253">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Thud" ID="{13636EC7-9504-4407-AF85-FF16B49ADF1B}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{AB05AD69-F678-47DD-82D8-D45ACDE20AD7}" ShortID="260087653">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Squeak Closed" ID="{810D63A4-7E64-458C-90B6-A58AA4A2680B}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{B0E8D9F3-BBD8-4FB5-A004-504A606ABA56}" ShortID="573799605">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Squeak Open" ID="{411F2522-C2D1-4719-8575-57DB31460773}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_BathroomDoorSqueakClosed" ID="{9448DF52-1EE5-43F4-B02C-26E8C9C876A8}">
+									<ChildrenList>
+										<Action Name="" ID="{74705546-9D23-4EC5-B8BC-23685D6BD7AC}" ShortID="65370080">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Squeak Closed" ID="{810D63A4-7E64-458C-90B6-A58AA4A2680B}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_BathroomDoorSqueakOpen" ID="{8057C4D7-1D6F-45DF-9435-6B32735D0F24}">
+									<ChildrenList>
+										<Action Name="" ID="{5701FC83-0C6A-4802-B05B-63A811E623A3}" ShortID="445117016">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Squeak Open" ID="{411F2522-C2D1-4719-8575-57DB31460773}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Sink" ID="{F87B17AA-2501-4D49-85A4-489FEB1FA0A7}" ShortID="263843116">
+							<ChildrenList>
+								<Event Name="Play_TapRunning" ID="{95F0E812-CEF8-4448-ABF4-7EF9D4B671E7}">
+									<ChildrenList>
+										<Action Name="" ID="{D2BBE361-EA64-4D5C-BD6B-76141012B9E7}" ShortID="94593167">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Tap" ID="{1427C52F-55CC-46F1-BDC7-6618742F9FED}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_TapRunning" ID="{A7D05C75-918F-4365-9314-66BD517D051E}">
+									<ChildrenList>
+										<Action Name="" ID="{32145DC9-E905-4BDA-86FE-34A9CB1B490F}" ShortID="540306119">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Tap" ID="{1427C52F-55CC-46F1-BDC7-6618742F9FED}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Toilet" ID="{5CF51D8D-C8AE-4119-B1C8-7AC7A691280E}" ShortID="820047188">
+							<ChildrenList>
+								<Event Name="Play_ToiletFlush" ID="{3F8FC2D8-41CE-49B7-AB6F-29B3E6FCB7FD}">
+									<ChildrenList>
+										<Action Name="" ID="{728285D5-E203-480A-98E0-AFFE9FF11F42}" ShortID="398263446">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Toilet Flush" ID="{330B76C4-4FDA-46C4-A5C7-848D0B367D4F}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Stop_ToiletFlush" ID="{33DF270D-C2F9-464F-81D8-D90B8AD8D305}">
+									<ChildrenList>
+										<Action Name="" ID="{A84C8215-88FF-4D2C-83DC-2804B04E222C}" ShortID="697400477">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Toilet Flush" ID="{330B76C4-4FDA-46C4-A5C7-848D0B367D4F}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Exterior" ID="{9B8C6038-0755-40BF-A0BD-43068745849D}" ShortID="590771922">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Play_OutdoorsBlendContainer" ID="{965AE9A6-8FCE-4E8A-840C-6900AEDF2C46}">
+							<ChildrenList>
+								<Action Name="" ID="{DECBE7C4-ED3C-4563-9174-5CD087876E53}" ShortID="56103179">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Outdoors Blend Container" ID="{066F0315-7518-4EC9-A114-22CA1F7758C1}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_OutdoorsBlendContainer" ID="{949E765D-5945-4A7F-90B9-B4B221F45006}">
+							<ChildrenList>
+								<Action Name="" ID="{F827DCC8-2F2B-49FE-87B2-4668B4F945F6}" ShortID="24380732">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Outdoors Blend Container" ID="{066F0315-7518-4EC9-A114-22CA1F7758C1}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_OutdoorsHeartbeat" ID="{78BB697E-816C-4D75-BECA-8EF63BC639DA}">
+							<ChildrenList>
+								<Action Name="" ID="{DBCD5E03-34E8-405B-BB1B-439E15605565}" ShortID="996482447">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heartbeat Outdoors" ID="{D80B10F5-F2B1-4F35-8416-EBDBBE04E4A2}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_OutdoorsHeartbeat" ID="{0FFDFBD4-0A56-46FC-B0A0-4574A6B570E7}">
+							<ChildrenList>
+								<Action Name="" ID="{79B88B81-520D-4705-8675-DA836E920367}" ShortID="283289026">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Heartbeat Outdoors" ID="{D80B10F5-F2B1-4F35-8416-EBDBBE04E4A2}" WorkUnitID="{4149C74D-C050-4C14-9872-5A4CC0F8378E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

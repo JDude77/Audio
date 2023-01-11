@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	253011666	Stop_BathroomDoorSounds			\Default Work Unit\Bathroom\Door\Stop_BathroomDoorSounds	
+	2528637642	Play_BathroomDoorImpact			\Default Work Unit\Bathroom\Door\Play_BathroomDoorImpact	
+	3059754700	Play_BathroomDoorClick			\Default Work Unit\Bathroom\Door\Play_BathroomDoorClick	
+	4104340779	Play_BathroomDoorThud			\Default Work Unit\Bathroom\Door\Play_BathroomDoorThud	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1210950262	InBathroom			\Default Work Unit\InBathroom	
+
+Effect plug-ins	ID	Name	Type				Notes
+	535667444	Bathroom1	Wwise Matrix Reverb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	16732569	Impact	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Impact_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom Door\Impact		28864
+	833864767	Click	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Click_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom Door\Click		29576
+	923908852	Thud	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Thud_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom Door\Thud		61036
+

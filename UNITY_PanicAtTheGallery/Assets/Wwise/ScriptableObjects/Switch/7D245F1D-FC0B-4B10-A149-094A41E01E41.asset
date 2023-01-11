@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0266650bbfc011b41bc7f2e268467128, type: 3}
+  m_Name: 7D245F1D-FC0B-4B10-A149-094A41E01E41
+  m_EditorClassIdentifier: 
+  objectName: Stone
+  id: 1216965916
+  guid: 7D245F1D-FC0B-4B10-A149-094A41E01E41
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: 0bbd3b8cdfd742d41a2b7bce8dba9af5,
+    type: 2}

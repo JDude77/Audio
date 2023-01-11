@@ -1,0 +1,1644 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e66e342645111d943ae030efe9334d84, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 20474f0292254646aac1143112566ac6
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: 20474f0292254646aac1143112566ac6
+    GuidInternal: 
+    m_lastTime: -8585299786526451808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 9def1404cee0224db9c8c640a4574931
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 9def1404cee0224db9c8c640a4574931
+    GuidInternal: 
+    m_lastTime: -8585281992385570981
+    List:
+    - name: Main_Gallery
+      guid: 3cdcf6125f863a408962b8f9a4a3ec9c
+      id: 1779701493
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9def1404cee0224db9c8c640a4574931
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Main_Gallery
+        ObjectType: 1
+        guid: 3cdcf6125f863a408962b8f9a4a3ec9c
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Main_Gallery
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9def1404cee0224db9c8c640a4574931
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: f1d03252e0b930479c1de3e1ad2d1368
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9def1404cee0224db9c8c640a4574931
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: f1d03252e0b930479c1de3e1ad2d1368
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
+    - name: Outside
+      guid: af383f67c748c640bf5370841da8592c
+      id: 438105790
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9def1404cee0224db9c8c640a4574931
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Outside
+        ObjectType: 1
+        guid: af383f67c748c640bf5370841da8592c
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Outside
+    - name: SFX
+      guid: 2b61dfb30d325848b3b2fb84b0333ad5
+      id: 393239870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9def1404cee0224db9c8c640a4574931
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 2b61dfb30d325848b3b2fb84b0333ad5
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX
+    - name: Small_Gallery
+      guid: 6d0ecfd9f10ab3418f9e329735a89881
+      id: 3083919765
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9def1404cee0224db9c8c640a4574931
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Small_Gallery
+        ObjectType: 1
+        guid: 6d0ecfd9f10ab3418f9e329735a89881
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Small_Gallery
+    - name: Toilet
+      guid: 8e6e753784b6ae459cfa303820476830
+      id: 580245626
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9def1404cee0224db9c8c640a4574931
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Toilet
+        ObjectType: 1
+        guid: 8e6e753784b6ae459cfa303820476830
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Toilet
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: b648fc595591ef47b7e42dc76fdbd0da
+    ParentPath: SoundBanks\Default Work Unit
+    guid: b648fc595591ef47b7e42dc76fdbd0da
+    GuidInternal: 
+    m_lastTime: -8585282060938360016
+    List:
+    - name: Bathroom
+      guid: 7cb05fb2246e6545bd736823452c46ad
+      id: 1831461191
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b648fc595591ef47b7e42dc76fdbd0da
+      - ElementName: Bathroom
+        ObjectType: 7
+        guid: 7cb05fb2246e6545bd736823452c46ad
+      Path: SoundBanks\Default Work Unit\Bathroom
+    - name: Footsteps
+      guid: 75d93d96b6ccb54ba72d3c08a88eaa0b
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b648fc595591ef47b7e42dc76fdbd0da
+      - ElementName: Footsteps
+        ObjectType: 7
+        guid: 75d93d96b6ccb54ba72d3c08a88eaa0b
+      Path: SoundBanks\Default Work Unit\Footsteps
+    - name: Heartbeat
+      guid: e58942fe6e1cb542b5b04cc0509fe61c
+      id: 2179486487
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b648fc595591ef47b7e42dc76fdbd0da
+      - ElementName: Heartbeat
+        ObjectType: 7
+        guid: e58942fe6e1cb542b5b04cc0509fe61c
+      Path: SoundBanks\Default Work Unit\Heartbeat
+    - name: Music
+      guid: 535028000896c244aa2cc9838ad262ee
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b648fc595591ef47b7e42dc76fdbd0da
+      - ElementName: Music
+        ObjectType: 7
+        guid: 535028000896c244aa2cc9838ad262ee
+      Path: SoundBanks\Default Work Unit\Music
+    - name: Outdoors
+      guid: 1e217c977ead15439dc87cf7e381910c
+      id: 2730119150
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b648fc595591ef47b7e42dc76fdbd0da
+      - ElementName: Outdoors
+        ObjectType: 7
+        guid: 1e217c977ead15439dc87cf7e381910c
+      Path: SoundBanks\Default Work Unit\Outdoors
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 866878b0bbafa841b080b74dcbe1b0bf
+    ParentPath: Events\Default Work Unit
+    guid: 866878b0bbafa841b080b74dcbe1b0bf
+    GuidInternal: 
+    m_lastTime: -8585282058017627679
+    List:
+    - name: Bass
+      guid: 75a6c5707979aa42a983933904d09422
+      id: 1291433344
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      - ElementName: Bass
+        ObjectType: 4
+        guid: 75a6c5707979aa42a983933904d09422
+      Path: Events\Default Work Unit\Music\Bass
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Bathroom
+      guid: b49bc6048208294384213f464f9b377a
+      id: 1831461191
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Bathroom
+        ObjectType: 4
+        guid: b49bc6048208294384213f464f9b377a
+      Path: Events\Default Work Unit\Bathroom
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Cello
+      guid: 42eb24608c9e994b9e84d792a2459d5d
+      id: 1867631852
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      - ElementName: Cello
+        ObjectType: 4
+        guid: 42eb24608c9e994b9e84d792a2459d5d
+      Path: Events\Default Work Unit\Music\Cello
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Door
+      guid: 7d2cad769dd89745b73649b7077cdb8e
+      id: 1877847629
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Bathroom
+        ObjectType: 4
+        guid: b49bc6048208294384213f464f9b377a
+      - ElementName: Door
+        ObjectType: 4
+        guid: 7d2cad769dd89745b73649b7077cdb8e
+      Path: Events\Default Work Unit\Bathroom\Door
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Exterior
+      guid: 38608c9b5507bf40a0bd43068745849d
+      id: 2213992659
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Exterior
+        ObjectType: 4
+        guid: 38608c9b5507bf40a0bd43068745849d
+      Path: Events\Default Work Unit\Exterior
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Footsteps
+      guid: a59026a1ab043c4cbe3bc8352136e4ed
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Footsteps
+        ObjectType: 4
+        guid: a59026a1ab043c4cbe3bc8352136e4ed
+      Path: Events\Default Work Unit\Footsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Heartbeat
+      guid: 6f964451e01097408b2f3591ca50e41f
+      id: 2179486487
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Heartbeat
+        ObjectType: 4
+        guid: 6f964451e01097408b2f3591ca50e41f
+      Path: Events\Default Work Unit\Heartbeat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music
+      guid: 73475361be36d44bbdcabc8efc27821b
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      Path: Events\Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_BathroomDoorClick
+      guid: 48aee09846dbe84099bdb956863b68ae
+      id: 3059754700
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Bathroom
+        ObjectType: 4
+        guid: b49bc6048208294384213f464f9b377a
+      - ElementName: Door
+        ObjectType: 4
+        guid: 7d2cad769dd89745b73649b7077cdb8e
+      - ElementName: Play_BathroomDoorClick
+        ObjectType: 3
+        guid: 48aee09846dbe84099bdb956863b68ae
+      Path: Events\Default Work Unit\Bathroom\Door\Play_BathroomDoorClick
+      maxAttenuation: 25
+      maxDuration: 0.307417
+      minDuration: 0.290163
+    - name: Play_BathroomDoorImpact
+      guid: bef97f5353003c48ac0379690fbd6d90
+      id: 2528637642
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Bathroom
+        ObjectType: 4
+        guid: b49bc6048208294384213f464f9b377a
+      - ElementName: Door
+        ObjectType: 4
+        guid: 7d2cad769dd89745b73649b7077cdb8e
+      - ElementName: Play_BathroomDoorImpact
+        ObjectType: 3
+        guid: bef97f5353003c48ac0379690fbd6d90
+      Path: Events\Default Work Unit\Bathroom\Door\Play_BathroomDoorImpact
+      maxAttenuation: 25
+      maxDuration: 0.635678
+      minDuration: 0.582919
+    - name: Play_BathroomDoorSqueakClosed
+      guid: 52df4894e51ef443b02c26e8c9c876a8
+      id: 836867030
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Bathroom
+        ObjectType: 4
+        guid: b49bc6048208294384213f464f9b377a
+      - ElementName: Door
+        ObjectType: 4
+        guid: 7d2cad769dd89745b73649b7077cdb8e
+      - ElementName: Play_BathroomDoorSqueakClosed
+        ObjectType: 3
+        guid: 52df4894e51ef443b02c26e8c9c876a8
+      Path: Events\Default Work Unit\Bathroom\Door\Play_BathroomDoorSqueakClosed
+      maxAttenuation: 25
+      maxDuration: 0.9
+      minDuration: 0.837308
+    - name: Play_BathroomDoorSqueakOpen
+      guid: d7c457806f1ddf4594356b32735d0f24
+      id: 2005310866
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Bathroom
+        ObjectType: 4
+        guid: b49bc6048208294384213f464f9b377a
+      - ElementName: Door
+        ObjectType: 4
+        guid: 7d2cad769dd89745b73649b7077cdb8e
+      - ElementName: Play_BathroomDoorSqueakOpen
+        ObjectType: 3
+        guid: d7c457806f1ddf4594356b32735d0f24
+      Path: Events\Default Work Unit\Bathroom\Door\Play_BathroomDoorSqueakOpen
+      maxAttenuation: 25
+      maxDuration: 0.985374
+      minDuration: 0.738197
+    - name: Play_BathroomDoorThud
+      guid: b9dcfee80d80b541b9021bfb498c1ad2
+      id: 4104340779
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Bathroom
+        ObjectType: 4
+        guid: b49bc6048208294384213f464f9b377a
+      - ElementName: Door
+        ObjectType: 4
+        guid: 7d2cad769dd89745b73649b7077cdb8e
+      - ElementName: Play_BathroomDoorThud
+        ObjectType: 3
+        guid: b9dcfee80d80b541b9021bfb498c1ad2
+      Path: Events\Default Work Unit\Bathroom\Door\Play_BathroomDoorThud
+      maxAttenuation: 25
+      maxDuration: 0.582412
+      minDuration: 0.534074
+    - name: Play_Footsteps
+      guid: 02099eba80ae7a4c849dbd09847ee82d
+      id: 3854155799
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Footsteps
+        ObjectType: 4
+        guid: a59026a1ab043c4cbe3bc8352136e4ed
+      - ElementName: Play_Footsteps
+        ObjectType: 3
+        guid: 02099eba80ae7a4c849dbd09847ee82d
+      Path: Events\Default Work Unit\Footsteps\Play_Footsteps
+      maxAttenuation: 0
+      maxDuration: 0.662873
+      minDuration: 0.531373
+    - name: Play_Heartbeat
+      guid: 2014375229f4d24dbb908bf47090d943
+      id: 3765695918
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Heartbeat
+        ObjectType: 4
+        guid: 6f964451e01097408b2f3591ca50e41f
+      - ElementName: Play_Heartbeat
+        ObjectType: 3
+        guid: 2014375229f4d24dbb908bf47090d943
+      Path: Events\Default Work Unit\Heartbeat\Play_Heartbeat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Music
+      guid: 5cf2b4a9dad7b84b9b11811ebda3ac0e
+      id: 2932040671
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      - ElementName: Play_Music
+        ObjectType: 3
+        guid: 5cf2b4a9dad7b84b9b11811ebda3ac0e
+      Path: Events\Default Work Unit\Music\Play_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_OutdoorsBlendContainer
+      guid: a6e95a96ce8f8a4e840c6900aedf2c46
+      id: 2095862519
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Exterior
+        ObjectType: 4
+        guid: 38608c9b5507bf40a0bd43068745849d
+      - ElementName: Play_OutdoorsBlendContainer
+        ObjectType: 3
+        guid: a6e95a96ce8f8a4e840c6900aedf2c46
+      Path: Events\Default Work Unit\Exterior\Play_OutdoorsBlendContainer
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_OutdoorsHeartbeat
+      guid: 7e69bb786c81754dbeca8ef63bc639da
+      id: 606952887
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Exterior
+        ObjectType: 4
+        guid: 38608c9b5507bf40a0bd43068745849d
+      - ElementName: Play_OutdoorsHeartbeat
+        ObjectType: 3
+        guid: 7e69bb786c81754dbeca8ef63bc639da
+      Path: Events\Default Work Unit\Exterior\Play_OutdoorsHeartbeat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Stinger
+      guid: 4b4ba21cfd7d424590768e5ae7be05d6
+      id: 754369548
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      - ElementName: Play_Stinger
+        ObjectType: 3
+        guid: 4b4ba21cfd7d424590768e5ae7be05d6
+      Path: Events\Default Work Unit\Music\Play_Stinger
+      maxAttenuation: 48
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_TapRunning
+      guid: 12e8f095f8ce4844abf47ef9d4b671e7
+      id: 3748840666
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Bathroom
+        ObjectType: 4
+        guid: b49bc6048208294384213f464f9b377a
+      - ElementName: Sink
+        ObjectType: 4
+        guid: aa177bf80125494d85a4489feb1fa0a7
+      - ElementName: Play_TapRunning
+        ObjectType: 3
+        guid: 12e8f095f8ce4844abf47ef9d4b671e7
+      Path: Events\Default Work Unit\Bathroom\Sink\Play_TapRunning
+      maxAttenuation: 25
+      maxDuration: Infinity
+      minDuration: 4.23176
+    - name: Play_ToiletFlush
+      guid: d8c28f3fce41b749ab6f29b3e6fcb7fd
+      id: 1853832177
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Bathroom
+        ObjectType: 4
+        guid: b49bc6048208294384213f464f9b377a
+      - ElementName: Toilet
+        ObjectType: 4
+        guid: 8d1df55caec81941b1c87ac7a691280e
+      - ElementName: Play_ToiletFlush
+        ObjectType: 3
+        guid: d8c28f3fce41b749ab6f29b3e6fcb7fd
+      Path: Events\Default Work Unit\Bathroom\Toilet\Play_ToiletFlush
+      maxAttenuation: 25
+      maxDuration: 46.275124
+      minDuration: 37.804817
+    - name: Set_Bass_Playing_Off
+      guid: e9bf96eee0681240bc961f531bde2f29
+      id: 1968328302
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      - ElementName: Bass
+        ObjectType: 4
+        guid: 75a6c5707979aa42a983933904d09422
+      - ElementName: Set_Bass_Playing_Off
+        ObjectType: 3
+        guid: e9bf96eee0681240bc961f531bde2f29
+      Path: Events\Default Work Unit\Music\Bass\Set_Bass_Playing_Off
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_Bass_Playing_On
+      guid: b5a6271ca397ff4bb3758ebbdfad4220
+      id: 443506384
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      - ElementName: Bass
+        ObjectType: 4
+        guid: 75a6c5707979aa42a983933904d09422
+      - ElementName: Set_Bass_Playing_On
+        ObjectType: 3
+        guid: b5a6271ca397ff4bb3758ebbdfad4220
+      Path: Events\Default Work Unit\Music\Bass\Set_Bass_Playing_On
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_Cello_Playing_Off
+      guid: 0a0465dae9831c4ca542de6e2741ac27
+      id: 4164588532
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      - ElementName: Cello
+        ObjectType: 4
+        guid: 42eb24608c9e994b9e84d792a2459d5d
+      - ElementName: Set_Cello_Playing_Off
+        ObjectType: 3
+        guid: 0a0465dae9831c4ca542de6e2741ac27
+      Path: Events\Default Work Unit\Music\Cello\Set_Cello_Playing_Off
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_Cello_Playing_On
+      guid: 1b349edf8a9a8946907d1e4c07936f76
+      id: 27402606
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      - ElementName: Cello
+        ObjectType: 4
+        guid: 42eb24608c9e994b9e84d792a2459d5d
+      - ElementName: Set_Cello_Playing_On
+        ObjectType: 3
+        guid: 1b349edf8a9a8946907d1e4c07936f76
+      Path: Events\Default Work Unit\Music\Cello\Set_Cello_Playing_On
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_Music_Key_Switch_B
+      guid: 715de026cd09c64bb77f1fad2dab266b
+      id: 4015526953
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      - ElementName: Set_Music_Key_Switch_B
+        ObjectType: 3
+        guid: 715de026cd09c64bb77f1fad2dab266b
+      Path: Events\Default Work Unit\Music\Set_Music_Key_Switch_B
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_Music_Key_Switch_C
+      guid: e5a393a59a3cf8438840b5d7f4e4d3eb
+      id: 4015526952
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      - ElementName: Set_Music_Key_Switch_C
+        ObjectType: 3
+        guid: e5a393a59a3cf8438840b5d7f4e4d3eb
+      Path: Events\Default Work Unit\Music\Set_Music_Key_Switch_C
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_Viola_Playing_Off
+      guid: 2dca61cf4a33df48a3e99551dfc2625b
+      id: 15315860
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      - ElementName: Viola
+        ObjectType: 4
+        guid: 98bac55c255d3f4dae9e542c0ecff2a1
+      - ElementName: Set_Viola_Playing_Off
+        ObjectType: 3
+        guid: 2dca61cf4a33df48a3e99551dfc2625b
+      Path: Events\Default Work Unit\Music\Viola\Set_Viola_Playing_Off
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_Viola_Playing_On
+      guid: 9b9f37435b08d441bfa6d13a4835d287
+      id: 1657027470
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      - ElementName: Viola
+        ObjectType: 4
+        guid: 98bac55c255d3f4dae9e542c0ecff2a1
+      - ElementName: Set_Viola_Playing_On
+        ObjectType: 3
+        guid: 9b9f37435b08d441bfa6d13a4835d287
+      Path: Events\Default Work Unit\Music\Viola\Set_Viola_Playing_On
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_Violin_Playing_Off
+      guid: 395f6381f304a745be8c6f2d83c6bc9e
+      id: 2128560376
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      - ElementName: Violin
+        ObjectType: 4
+        guid: f0610f829f1b7b4687e91e644b1870bd
+      - ElementName: Set_Violin_Playing_Off
+        ObjectType: 3
+        guid: 395f6381f304a745be8c6f2d83c6bc9e
+      Path: Events\Default Work Unit\Music\Violin\Set_Violin_Playing_Off
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Set_Violin_Playing_On
+      guid: fbabc87a2612e947ba4136452e6e9b96
+      id: 882775970
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      - ElementName: Violin
+        ObjectType: 4
+        guid: f0610f829f1b7b4687e91e644b1870bd
+      - ElementName: Set_Violin_Playing_On
+        ObjectType: 3
+        guid: fbabc87a2612e947ba4136452e6e9b96
+      Path: Events\Default Work Unit\Music\Violin\Set_Violin_Playing_On
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Sink
+      guid: aa177bf80125494d85a4489feb1fa0a7
+      id: 805220752
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Bathroom
+        ObjectType: 4
+        guid: b49bc6048208294384213f464f9b377a
+      - ElementName: Sink
+        ObjectType: 4
+        guid: aa177bf80125494d85a4489feb1fa0a7
+      Path: Events\Default Work Unit\Bathroom\Sink
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_BathroomDoorSounds
+      guid: 14fab0acbd0df04d8d92979214080db9
+      id: 253011666
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Bathroom
+        ObjectType: 4
+        guid: b49bc6048208294384213f464f9b377a
+      - ElementName: Door
+        ObjectType: 4
+        guid: 7d2cad769dd89745b73649b7077cdb8e
+      - ElementName: Stop_BathroomDoorSounds
+        ObjectType: 3
+        guid: 14fab0acbd0df04d8d92979214080db9
+      Path: Events\Default Work Unit\Bathroom\Door\Stop_BathroomDoorSounds
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Heartbeat
+      guid: 74df53ea61f45848a781f49d90ac351a
+      id: 3319673256
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Heartbeat
+        ObjectType: 4
+        guid: 6f964451e01097408b2f3591ca50e41f
+      - ElementName: Stop_Heartbeat
+        ObjectType: 3
+        guid: 74df53ea61f45848a781f49d90ac351a
+      Path: Events\Default Work Unit\Heartbeat\Stop_Heartbeat
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_OutdoorsBlendContainer
+      guid: 5d769e9445597f4a90b9b4b221f45006
+      id: 82798741
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Exterior
+        ObjectType: 4
+        guid: 38608c9b5507bf40a0bd43068745849d
+      - ElementName: Stop_OutdoorsBlendContainer
+        ObjectType: 3
+        guid: 5d769e9445597f4a90b9b4b221f45006
+      Path: Events\Default Work Unit\Exterior\Stop_OutdoorsBlendContainer
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_OutdoorsHeartbeat
+      guid: d4fbfd0f560afc46b0a04574a6b570e7
+      id: 2243099949
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Exterior
+        ObjectType: 4
+        guid: 38608c9b5507bf40a0bd43068745849d
+      - ElementName: Stop_OutdoorsHeartbeat
+        ObjectType: 3
+        guid: d4fbfd0f560afc46b0a04574a6b570e7
+      Path: Events\Default Work Unit\Exterior\Stop_OutdoorsHeartbeat
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Stinger
+      guid: 279457a755811f4298773007bda076ef
+      id: 3205063286
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      - ElementName: Stop_Stinger
+        ObjectType: 3
+        guid: 279457a755811f4298773007bda076ef
+      Path: Events\Default Work Unit\Music\Stop_Stinger
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_TapRunning
+      guid: 755cd0a78f916543931466bd517d051e
+      id: 2944826444
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Bathroom
+        ObjectType: 4
+        guid: b49bc6048208294384213f464f9b377a
+      - ElementName: Sink
+        ObjectType: 4
+        guid: aa177bf80125494d85a4489feb1fa0a7
+      - ElementName: Stop_TapRunning
+        ObjectType: 3
+        guid: 755cd0a78f916543931466bd517d051e
+      Path: Events\Default Work Unit\Bathroom\Sink\Stop_TapRunning
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_ToiletFlush
+      guid: 0d27df33f9c24f4681d8d90b8ad8d305
+      id: 1875300071
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Bathroom
+        ObjectType: 4
+        guid: b49bc6048208294384213f464f9b377a
+      - ElementName: Toilet
+        ObjectType: 4
+        guid: 8d1df55caec81941b1c87ac7a691280e
+      - ElementName: Stop_ToiletFlush
+        ObjectType: 3
+        guid: 0d27df33f9c24f4681d8d90b8ad8d305
+      Path: Events\Default Work Unit\Bathroom\Toilet\Stop_ToiletFlush
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Toilet
+      guid: 8d1df55caec81941b1c87ac7a691280e
+      id: 580245626
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Bathroom
+        ObjectType: 4
+        guid: b49bc6048208294384213f464f9b377a
+      - ElementName: Toilet
+        ObjectType: 4
+        guid: 8d1df55caec81941b1c87ac7a691280e
+      Path: Events\Default Work Unit\Bathroom\Toilet
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Viola
+      guid: 98bac55c255d3f4dae9e542c0ecff2a1
+      id: 3135074692
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      - ElementName: Viola
+        ObjectType: 4
+        guid: 98bac55c255d3f4dae9e542c0ecff2a1
+      Path: Events\Default Work Unit\Music\Viola
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Violin
+      guid: f0610f829f1b7b4687e91e644b1870bd
+      id: 3063529226
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 866878b0bbafa841b080b74dcbe1b0bf
+      - ElementName: Music
+        ObjectType: 4
+        guid: 73475361be36d44bbdcabc8efc27821b
+      - ElementName: Violin
+        ObjectType: 4
+        guid: f0610f829f1b7b4687e91e644b1870bd
+      Path: Events\Default Work Unit\Music\Violin
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: e3fc0d31724a59479e62eac588f8dd53
+    ParentPath: Game Parameters\Default Work Unit
+    guid: e3fc0d31724a59479e62eac588f8dd53
+    GuidInternal: 
+    m_lastTime: -8585282100202207466
+    List:
+    - name: Anxiety
+      guid: 75284d16f7ba42438e3435a7f0e66d3a
+      id: 4143496951
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e3fc0d31724a59479e62eac588f8dd53
+      - ElementName: Anxiety
+        ObjectType: 13
+        guid: 75284d16f7ba42438e3435a7f0e66d3a
+      Path: Game Parameters\Default Work Unit\Anxiety
+    - name: MasterVolume
+      guid: 1455d93f5e5c1d4f88a9b3bb596f3d83
+      id: 2918011349
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e3fc0d31724a59479e62eac588f8dd53
+      - ElementName: MasterVolume
+        ObjectType: 13
+        guid: 1455d93f5e5c1d4f88a9b3bb596f3d83
+      Path: Game Parameters\Default Work Unit\MasterVolume
+    - name: MusicVolume
+      guid: 4230495f6741d54780f2f5d88428df89
+      id: 2346531308
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e3fc0d31724a59479e62eac588f8dd53
+      - ElementName: MusicVolume
+        ObjectType: 13
+        guid: 4230495f6741d54780f2f5d88428df89
+      Path: Game Parameters\Default Work Unit\MusicVolume
+    - name: SFXVolume
+      guid: 845674d10740744fbe750a4a0fa6df2a
+      id: 988953028
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e3fc0d31724a59479e62eac588f8dd53
+      - ElementName: SFXVolume
+        ObjectType: 13
+        guid: 845674d10740744fbe750a4a0fa6df2a
+      Path: Game Parameters\Default Work Unit\SFXVolume
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 58dc6158295b9249bbe5660f3de329eb
+    ParentPath: States\Default Work Unit
+    guid: 58dc6158295b9249bbe5660f3de329eb
+    GuidInternal: 
+    m_lastTime: -8585282118730234275
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 3b1d631af20b3b47be2793800fad2807
+    ParentPath: Switches\Default Work Unit
+    guid: 3b1d631af20b3b47be2793800fad2807
+    GuidInternal: 
+    m_lastTime: -8585282123384513856
+    List:
+    - name: Bass_Playing
+      guid: f8dc89874debdb45ac82382fa63b5f1e
+      id: 1707800063
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3b1d631af20b3b47be2793800fad2807
+      - ElementName: Music
+        ObjectType: 4
+        guid: 4ca7af48cd42ae46ae0c4cce5d3a6e2a
+      - ElementName: Bass_Playing
+        ObjectType: 11
+        guid: f8dc89874debdb45ac82382fa63b5f1e
+      Path: Switches\Default Work Unit\Music\Bass_Playing
+      values:
+      - name: Off
+        guid: e2ffa3c01917b844a70bdf9416b1e847
+        id: 930712164
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3b1d631af20b3b47be2793800fad2807
+        - ElementName: Music
+          ObjectType: 4
+          guid: 4ca7af48cd42ae46ae0c4cce5d3a6e2a
+        - ElementName: Bass_Playing
+          ObjectType: 11
+          guid: f8dc89874debdb45ac82382fa63b5f1e
+        - ElementName: Off
+          ObjectType: 10
+          guid: e2ffa3c01917b844a70bdf9416b1e847
+      - name: On
+        guid: 67ee21c697343d419eb7f5aca15c5b5c
+        id: 1651971902
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3b1d631af20b3b47be2793800fad2807
+        - ElementName: Music
+          ObjectType: 4
+          guid: 4ca7af48cd42ae46ae0c4cce5d3a6e2a
+        - ElementName: Bass_Playing
+          ObjectType: 11
+          guid: f8dc89874debdb45ac82382fa63b5f1e
+        - ElementName: On
+          ObjectType: 10
+          guid: 67ee21c697343d419eb7f5aca15c5b5c
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Cello_Playing
+      guid: 8ae4cbeed20c114299a27c4ffa2fa5c0
+      id: 2097398747
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3b1d631af20b3b47be2793800fad2807
+      - ElementName: Music
+        ObjectType: 4
+        guid: 4ca7af48cd42ae46ae0c4cce5d3a6e2a
+      - ElementName: Cello_Playing
+        ObjectType: 11
+        guid: 8ae4cbeed20c114299a27c4ffa2fa5c0
+      Path: Switches\Default Work Unit\Music\Cello_Playing
+      values:
+      - name: Off
+        guid: 23d628025557744bb803d5917f09202f
+        id: 930712164
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3b1d631af20b3b47be2793800fad2807
+        - ElementName: Music
+          ObjectType: 4
+          guid: 4ca7af48cd42ae46ae0c4cce5d3a6e2a
+        - ElementName: Cello_Playing
+          ObjectType: 11
+          guid: 8ae4cbeed20c114299a27c4ffa2fa5c0
+        - ElementName: Off
+          ObjectType: 10
+          guid: 23d628025557744bb803d5917f09202f
+      - name: On
+        guid: 25a6c9ad0ce51d4cb424b657ca5605ea
+        id: 1651971902
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3b1d631af20b3b47be2793800fad2807
+        - ElementName: Music
+          ObjectType: 4
+          guid: 4ca7af48cd42ae46ae0c4cce5d3a6e2a
+        - ElementName: Cello_Playing
+          ObjectType: 11
+          guid: 8ae4cbeed20c114299a27c4ffa2fa5c0
+        - ElementName: On
+          ObjectType: 10
+          guid: 25a6c9ad0ce51d4cb424b657ca5605ea
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Footsteps
+      guid: e5475720feec1e4ebbc468ecd5ee1ce3
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3b1d631af20b3b47be2793800fad2807
+      - ElementName: Footsteps
+        ObjectType: 11
+        guid: e5475720feec1e4ebbc468ecd5ee1ce3
+      Path: Switches\Default Work Unit\Footsteps
+      values:
+      - name: Stone
+        guid: 1d5f247d0bfc104ba149094a41e01e41
+        id: 1216965916
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3b1d631af20b3b47be2793800fad2807
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: e5475720feec1e4ebbc468ecd5ee1ce3
+        - ElementName: Stone
+          ObjectType: 10
+          guid: 1d5f247d0bfc104ba149094a41e01e41
+      - name: Wood
+        guid: be9ad15ce579f641aecead681eafe1cd
+        id: 2058049674
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3b1d631af20b3b47be2793800fad2807
+        - ElementName: Footsteps
+          ObjectType: 11
+          guid: e5475720feec1e4ebbc468ecd5ee1ce3
+        - ElementName: Wood
+          ObjectType: 10
+          guid: be9ad15ce579f641aecead681eafe1cd
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music
+      guid: 4ca7af48cd42ae46ae0c4cce5d3a6e2a
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3b1d631af20b3b47be2793800fad2807
+      - ElementName: Music
+        ObjectType: 4
+        guid: 4ca7af48cd42ae46ae0c4cce5d3a6e2a
+      Path: Switches\Default Work Unit\Music
+      values: []
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Music_Key
+      guid: e178517438500346b2b2126099341848
+      id: 2078097994
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3b1d631af20b3b47be2793800fad2807
+      - ElementName: Music
+        ObjectType: 4
+        guid: 4ca7af48cd42ae46ae0c4cce5d3a6e2a
+      - ElementName: Music_Key
+        ObjectType: 11
+        guid: e178517438500346b2b2126099341848
+      Path: Switches\Default Work Unit\Music\Music_Key
+      values:
+      - name: B_Minor
+        guid: 08c485923d64ff4db1902a36e13d072c
+        id: 2279419299
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3b1d631af20b3b47be2793800fad2807
+        - ElementName: Music
+          ObjectType: 4
+          guid: 4ca7af48cd42ae46ae0c4cce5d3a6e2a
+        - ElementName: Music_Key
+          ObjectType: 11
+          guid: e178517438500346b2b2126099341848
+        - ElementName: B_Minor
+          ObjectType: 10
+          guid: 08c485923d64ff4db1902a36e13d072c
+      - name: C_Major
+        guid: a72cd534587e2749bd8b37843e14556c
+        id: 3947233186
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3b1d631af20b3b47be2793800fad2807
+        - ElementName: Music
+          ObjectType: 4
+          guid: 4ca7af48cd42ae46ae0c4cce5d3a6e2a
+        - ElementName: Music_Key
+          ObjectType: 11
+          guid: e178517438500346b2b2126099341848
+        - ElementName: C_Major
+          ObjectType: 10
+          guid: a72cd534587e2749bd8b37843e14556c
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Viola_Playing
+      guid: 938dc3c1754e534298a03b8fedfe0c9b
+      id: 209381827
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3b1d631af20b3b47be2793800fad2807
+      - ElementName: Music
+        ObjectType: 4
+        guid: 4ca7af48cd42ae46ae0c4cce5d3a6e2a
+      - ElementName: Viola_Playing
+        ObjectType: 11
+        guid: 938dc3c1754e534298a03b8fedfe0c9b
+      Path: Switches\Default Work Unit\Music\Viola_Playing
+      values:
+      - name: Off
+        guid: 499bb2b2d9e4224cac134ca72e9ae1c1
+        id: 930712164
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3b1d631af20b3b47be2793800fad2807
+        - ElementName: Music
+          ObjectType: 4
+          guid: 4ca7af48cd42ae46ae0c4cce5d3a6e2a
+        - ElementName: Viola_Playing
+          ObjectType: 11
+          guid: 938dc3c1754e534298a03b8fedfe0c9b
+        - ElementName: Off
+          ObjectType: 10
+          guid: 499bb2b2d9e4224cac134ca72e9ae1c1
+      - name: On
+        guid: f70e5ae5c54f1c4ea7c5ba8cc5942075
+        id: 1651971902
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3b1d631af20b3b47be2793800fad2807
+        - ElementName: Music
+          ObjectType: 4
+          guid: 4ca7af48cd42ae46ae0c4cce5d3a6e2a
+        - ElementName: Viola_Playing
+          ObjectType: 11
+          guid: 938dc3c1754e534298a03b8fedfe0c9b
+        - ElementName: On
+          ObjectType: 10
+          guid: f70e5ae5c54f1c4ea7c5ba8cc5942075
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: Violin_Playing
+      guid: a0332c333f800c439f8269b8224d7493
+      id: 466257165
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3b1d631af20b3b47be2793800fad2807
+      - ElementName: Music
+        ObjectType: 4
+        guid: 4ca7af48cd42ae46ae0c4cce5d3a6e2a
+      - ElementName: Violin_Playing
+        ObjectType: 11
+        guid: a0332c333f800c439f8269b8224d7493
+      Path: Switches\Default Work Unit\Music\Violin_Playing
+      values:
+      - name: Off
+        guid: a06ce394a7aa9f43897be9816dda9ad4
+        id: 930712164
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3b1d631af20b3b47be2793800fad2807
+        - ElementName: Music
+          ObjectType: 4
+          guid: 4ca7af48cd42ae46ae0c4cce5d3a6e2a
+        - ElementName: Violin_Playing
+          ObjectType: 11
+          guid: a0332c333f800c439f8269b8224d7493
+        - ElementName: Off
+          ObjectType: 10
+          guid: a06ce394a7aa9f43897be9816dda9ad4
+      - name: On
+        guid: 5d0776707276ef49afe8d008b0f1b1f6
+        id: 1651971902
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 3b1d631af20b3b47be2793800fad2807
+        - ElementName: Music
+          ObjectType: 4
+          guid: 4ca7af48cd42ae46ae0c4cce5d3a6e2a
+        - ElementName: Violin_Playing
+          ObjectType: 11
+          guid: a0332c333f800c439f8269b8224d7493
+        - ElementName: On
+          ObjectType: 10
+          guid: 5d0776707276ef49afe8d008b0f1b1f6
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: d7708eb2e30a544590c517bdb72e4170
+    ParentPath: Triggers\Default Work Unit
+    guid: d7708eb2e30a544590c517bdb72e4170
+    GuidInternal: 
+    m_lastTime: -8585283024785694786
+    List:
+    - name: Down_Stinger_B
+      guid: 92a54ea6878bb5448a54ba41aa098bfd
+      id: 2176606481
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d7708eb2e30a544590c517bdb72e4170
+      - ElementName: Down_Stinger_B
+        ObjectType: 14
+        guid: 92a54ea6878bb5448a54ba41aa098bfd
+      Path: Triggers\Default Work Unit\Down_Stinger_B
+    - name: Down_Stinger_C
+      guid: 314819097ef5b54a877cd01cab4370b4
+      id: 2176606480
+      PathAndIcons:
+      - ElementName: Triggers
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d7708eb2e30a544590c517bdb72e4170
+      - ElementName: Down_Stinger_C
+        ObjectType: 14
+        guid: 314819097ef5b54a877cd01cab4370b4
+      Path: Triggers\Default Work Unit\Down_Stinger_C
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 0500000006000000070000000b0000000f00000010000000
+  AutoSyncSelection: 0
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

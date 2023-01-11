@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6fa62f415f69274784725ae83ae2ed5, type: 3}
+  m_Name: D9CF0E6D-0AF1-41B3-8F9E-329735A89881
+  m_EditorClassIdentifier: 
+  objectName: Small_Gallery
+  id: 3083919765
+  guid: D9CF0E6D-0AF1-41B3-8F9E-329735A89881
