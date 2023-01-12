@@ -49,6 +49,10 @@ public class GameManager : MonoBehaviour
 
     private void Update()
     {
+        //Quick code to allow player to quit the game without ALT-F4-ing out
+        if(Input.GetKey(KeyCode.Escape)) Application.Quit();
+
+        //Update the anxiety HUD gradually
         if(TargetAnxietyValue != AnxietyHUD.value)
         {
             float Difference = Mathf.Abs(AnxietyHUD.value - TargetAnxietyValue);
@@ -80,6 +84,7 @@ public class GameManager : MonoBehaviour
         {
             PostProcessingProfile.TryGet(out Bloom);
             float Exp = Anxiety / 75 * Anxiety / 75;
+            //Pay no attention to this atrocious line of code
             Bloom.intensity.value = Higher ? (Anxiety / 25 + 0.5f) * Exp : (Anxiety / 25 - 0.5f) * Exp;
 
             PostProcessingProfile.TryGet(out Vignette);

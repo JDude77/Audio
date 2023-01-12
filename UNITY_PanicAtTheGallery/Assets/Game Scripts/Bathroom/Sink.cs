@@ -2,20 +2,22 @@ using UnityEngine;
 
 public class Sink : MonoBehaviour, IInteractive
 {
-    public Collider[] InteractionColliders { get; set; }
-    public bool IsInteractible { get; set; }
-    public string HUDText { get; set; }
-
-    private bool SinkIsOn = false;
-
-    private Animator SinkAnimator;
-
+    #region Attributes
     [Header("Wwise Events")]
     [SerializeField]
     private AK.Wwise.Event PlaySinkAudioEvent;
     [SerializeField]
     private AK.Wwise.Event StopSinkAudioEvent;
+    private bool SinkIsOn = false;
+    private Animator SinkAnimator;
+    #endregion
 
+    #region IInteractive Properties
+    public Collider[] InteractionColliders { get; set; }
+    public bool IsInteractible { get; set; }
+    public string HUDText { get; set; }
+    #endregion
+    
     private void Awake()
     {
         SinkAnimator = GetComponent<Animator>();
@@ -24,6 +26,7 @@ public class Sink : MonoBehaviour, IInteractive
         HUDText = "Turn On Faucet";
     }//End Awake
 
+    #region Behaviours
     public void Interact()
     {
         StopSinkAudioEvent.Post(gameObject);
@@ -32,4 +35,5 @@ public class Sink : MonoBehaviour, IInteractive
         SinkAnimator.SetBool("FaucetOn", SinkIsOn);
         PlaySinkAudioEvent.Post(gameObject);
     }//End Interact
+    #endregion
 }

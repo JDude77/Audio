@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class BathroomDoorAnimationEvents : MonoBehaviour
 {
+    #region Attributes
     [Header("Wwise Events")]
     [SerializeField]
     private AK.Wwise.Event PlayDoorSqueakOpen;
@@ -17,6 +18,7 @@ public class BathroomDoorAnimationEvents : MonoBehaviour
     private AK.Wwise.Event StopCurrentDoorSounds;
     [SerializeField]
     private GameObject ClickSoundOrigin;
+    #endregion
 
     public void PlayDoorSqueakOpenSound()
     {

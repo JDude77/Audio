@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class MenuOptions : MonoBehaviour
 {
+    #region Attributes
     [SerializeField]
     private Slider[] VolumeSliders;
     [SerializeField, Tooltip("Need to be the name of the parameter in Wwise which controls the bus output volume of the same index as the volume slider.")]
@@ -30,6 +31,7 @@ public class MenuOptions : MonoBehaviour
     private AK.Wwise.Event StopMenuHeartbeat;
     [SerializeField]
     private GameObject ExteriorEnvironment;
+    #endregion
 
     private void Awake()
     {
@@ -38,6 +40,7 @@ public class MenuOptions : MonoBehaviour
         PlayerCamera = FindObjectOfType<PlayerCamera>();
     }//End Awake
 
+    #region Behaviours
     public void SetVolume(int Index)
     {
         AkSoundEngine.SetRTPCValue(RTPCNames[Index], VolumeSliders[Index].value);
@@ -66,4 +69,5 @@ public class MenuOptions : MonoBehaviour
     {
         GM.TogglePostProcessing(!PostProcessingToggle.isOn);
     }//End TogglePostProcessing
+    #endregion
 }

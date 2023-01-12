@@ -2,19 +2,18 @@ using UnityEngine;
 
 public class BathroomDoorTrigger : MonoBehaviour, IInteractive
 {
+    #region Attributes
     [SerializeField]
     private BathroomDoor BathroomDoor;
+    private float Counter = 0;
+    #endregion
 
+    #region IInteractive Properties
     public Collider[] InteractionColliders { get; set; }
     public bool IsInteractible { get; set; }
     public string HUDText { get; set; }
-    private float Counter = 0;
+    #endregion
 
-    public void Interact()
-    {
-        BathroomDoor.Interact();
-        IsInteractible = false;
-    }
     private void Start()
     {
         //Ensure at least one collider is active on an interactive object
@@ -34,5 +33,13 @@ public class BathroomDoorTrigger : MonoBehaviour, IInteractive
                 Counter = 0;
             }//End if
         }//End if
-    }
+    }//End Update
+
+    #region Behaviours
+    public void Interact()
+    {
+        BathroomDoor.Interact();
+        IsInteractible = false;
+    }//End Interact
+    #endregion
 }

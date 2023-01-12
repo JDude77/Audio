@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 9def1404cee0224db9c8c640a4574931
     GuidInternal: 
-    m_lastTime: -8585281992385570981
+    m_lastTime: -8585280815707576446
     List:
     - name: Main_Gallery
       guid: 3cdcf6125f863a408962b8f9a4a3ec9c
@@ -105,6 +105,23 @@ MonoBehaviour:
         ObjectType: 1
         guid: af383f67c748c640bf5370841da8592c
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Outside
+    - name: Raised_Gallery
+      guid: b7bb23b8c810a54a89ea78cae9ff0394
+      id: 4128695586
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 9def1404cee0224db9c8c640a4574931
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Raised_Gallery
+        ObjectType: 1
+        guid: b7bb23b8c810a54a89ea78cae9ff0394
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Raised_Gallery
     - name: SFX
       guid: 2b61dfb30d325848b3b2fb84b0333ad5
       id: 393239870
@@ -1333,8 +1350,8 @@ MonoBehaviour:
         guid: 314819097ef5b54a877cd01cab4370b4
       Path: Triggers\Default Work Unit\Down_Stinger_C
   ExpandedFileSystemItemIds: 590000005a000000
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 010000000300000004000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 1
+  currentDataSource: 0
   CurrentPluginConfig: 

@@ -2,9 +2,11 @@ using UnityEngine;
 
 public class BathroomAnxietyReduction : MonoBehaviour
 {
+    #region Attributes
     private GameManager GM;
     private BathroomDoor BathroomDoor;
     private float TempAnxiety;
+    #endregion
 
     private void Awake()
     {

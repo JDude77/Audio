@@ -2,10 +2,11 @@ using UnityEngine;
 
 public class DynamicPaintingEmissions : MonoBehaviour
 {
+    #region Attributes
     [SerializeField]
     private Material[] PaintingMaterials;
-
     private GameManager GM;
+    #endregion
 
     private void Awake()
     {

@@ -2,36 +2,35 @@ using UnityEngine;
 
 public class PlatformHandler : MonoBehaviour
 {
+    #region Attributes
     [SerializeField]
     private GameObject Bottom;
-
     [SerializeField]
     private GameObject Top;
-
     private Material[] PlatformMaterials;
     private Light[] PlatformLights;
-
     private GameManager GM;
     private float StretchCounter = 0.0f;
-
     private float ScaleFactor = 0.2f;
-
     private float Frequency = 0.044f;
-
     private Vector3 StartScaleMid;
     private Vector3 StartPositionMid;
     private Vector3 StartPositionTop;
+    #endregion
 
     private void Awake()
     {
         GM = FindObjectOfType<GameManager>();
+
         StartScaleMid = transform.localScale;
         StartPositionMid = transform.localPosition;
         StartPositionTop = Top.transform.localPosition;
+
         PlatformMaterials = new Material[3];
         PlatformMaterials[0] = Top.GetComponent<MeshRenderer>().material;
         PlatformMaterials[1] = GetComponent<MeshRenderer>().material;
         PlatformMaterials[2] = Bottom.GetComponent<MeshRenderer>().material;
+
         PlatformLights = new Light[3];
         PlatformLights[0] = Top.GetComponent<Light>();
         PlatformLights[1] = GetComponent<Light>();
@@ -58,6 +57,7 @@ public class PlatformHandler : MonoBehaviour
         }//End else if
     }//End Update
 
+    #region Behaviours
     private void SetPlatformLighting(Color Emission, float Anxiety)
     {
         foreach (Material Material in PlatformMaterials)
@@ -81,4 +81,5 @@ public class PlatformHandler : MonoBehaviour
         transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, 0.006f + (transform.localScale.x * 0.01f));
         Top.transform.localPosition = new Vector3(Top.transform.localPosition.x, Top.transform.localPosition.y, transform.localPosition.z + transform.localScale.x * 0.01f);
     }//End ScalePlatform
+    #endregion
 }

@@ -2,14 +2,15 @@ using UnityEngine;
 
 public class HeartbeatAudio : MonoBehaviour
 {
+    #region Attributes
     [SerializeField]
     private AK.Wwise.Event PlayHeartbeatEvent;
     [SerializeField]
     private AK.Wwise.Event StopHeartbeatEvent;
     private bool HeartbeatState = false;
     private bool HeartbeatEnabledInOptions = true;
-
     private GameManager GM;
+    #endregion
 
     private void Awake()
     {
@@ -37,8 +38,10 @@ public class HeartbeatAudio : MonoBehaviour
         }//End else if
     }//End Update
 
+    #region Behaviours
     public void ToggleHeartbeat(bool Toggle)
     {
         HeartbeatEnabledInOptions = Toggle;
     }//End ToggleHeartbeat
+    #endregion
 }

@@ -2,31 +2,23 @@ using UnityEngine;
 
 public class BathroomDoor : MonoBehaviour, IInteractive
 {
-    public Collider[] InteractionColliders { get; set; }
+    #region Attributes
     private bool DoorOpen = false;
     private float Counter = 0;
     [SerializeField]
     private Animator DoorAnimator;
+    #endregion
+
+    #region IInteractive Properties
+    public Collider[] InteractionColliders { get; set; }
+    
     public bool IsInteractible { get; set; }
     public string HUDText { get; set; }
+    #endregion
 
+    #region Getters & Setters
     public bool GetDoorOpen() { return DoorOpen; }
-
-    public void Interact()
-    {
-        if(DoorOpen)
-        {
-            DoorAnimator.SetBool("DoorOpen", false);
-            HUDText = "Open Door";
-        }//End if
-        else
-        {
-            DoorAnimator.SetBool("DoorOpen", true);
-            HUDText = "Close Door";
-        }//End else
-        IsInteractible = false;
-        DoorOpen = !DoorOpen;
-    }//End Interact
+    #endregion
 
     // Start is called before the first frame update
     private void Start()
@@ -50,4 +42,22 @@ public class BathroomDoor : MonoBehaviour, IInteractive
             }//End if
         }//End if
     }//End Update
+
+    #region Behaviours
+    public void Interact()
+    {
+        if(DoorOpen)
+        {
+            DoorAnimator.SetBool("DoorOpen", false);
+            HUDText = "Open Door";
+        }//End if
+        else
+        {
+            DoorAnimator.SetBool("DoorOpen", true);
+            HUDText = "Close Door";
+        }//End else
+        IsInteractible = false;
+        DoorOpen = !DoorOpen;
+    }//End Interact
+    #endregion
 }

@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class FootstepsAudio : MonoBehaviour
 {
+    #region Attributes
     [Header("Wwise Events")]
     [SerializeField]
     private AK.Wwise.Event FootstepsEvent;
@@ -11,16 +12,13 @@ public class FootstepsAudio : MonoBehaviour
     private CharacterController PlayerController;
     private Vector3 PlayerMovementDirection;
     private bool CanMove = true;
+    #endregion
 
+    #region Getters & Setters
     public void SetCanMove(bool CanMove) { this.CanMove = CanMove; }
 
     public bool GetFootstepIsPlaying() { return FootstepIsPlaying; }
-
-    public void PlayFootstepSound()
-    {
-        FootstepsEvent.Post(gameObject);
-        FootstepIsPlaying = true;
-    }//End PlayFootstepSound
+    #endregion
 
     private void Awake()
     {
@@ -58,4 +56,12 @@ public class FootstepsAudio : MonoBehaviour
 
         TimeBetweenFootsteps = 0.5f;
     }//End OnTriggerExit
+
+    #region Behaviours
+    public void PlayFootstepSound()
+    {
+        FootstepsEvent.Post(gameObject);
+        FootstepIsPlaying = true;
+    }//End PlayFootstepSound
+    #endregion
 }

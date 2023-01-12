@@ -140,6 +140,7 @@ namespace AK
     {
         static const AkUniqueID MAIN_GALLERY = 1779701493U;
         static const AkUniqueID OUTSIDE = 438105790U;
+        static const AkUniqueID RAISED_GALLERY = 4128695586U;
         static const AkUniqueID SMALL_GALLERY = 3083919765U;
         static const AkUniqueID TOILET = 580245626U;
     } // namespace AUX_BUSSES

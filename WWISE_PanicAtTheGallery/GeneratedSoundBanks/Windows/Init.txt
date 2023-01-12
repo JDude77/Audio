@@ -14,11 +14,13 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	580245626	Toilet			\Default Work Unit\Master Audio Bus\Toilet	
 	1779701493	Main_Gallery			\Default Work Unit\Master Audio Bus\Main_Gallery	
 	3083919765	Small_Gallery			\Default Work Unit\Master Audio Bus\Small_Gallery	
+	4128695586	Raised_Gallery			\Default Work Unit\Master Audio Bus\Raised_Gallery	
 
 Effect plug-ins	ID	Name	Type				Notes
 	18017219	Have_U_Ever_Been_Outside (Custom)	Wwise RoomVerb			
 	128301099	Room_Small (Custom)	Wwise RoomVerb			
 	309032586	Dirty_Washing_Machine (Custom)	Wwise RoomVerb			
+	315882497	Hall_Small_Bright (Custom)	Wwise RoomVerb			
 	964748476	Hall_Medium_Bright (Custom)	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes

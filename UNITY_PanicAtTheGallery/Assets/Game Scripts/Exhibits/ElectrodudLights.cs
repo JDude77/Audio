@@ -2,14 +2,13 @@ using UnityEngine;
 
 public class ElectrodudLights : MonoBehaviour
 {
+    #region Attributes
     [SerializeField]
     private Material ElectrodudMaterial;
-
     private Light[] ElectrodudSpotlights;
-
     private GameManager GM;
-
     private int Anxiety;
+    #endregion
 
     private void Awake()
     {

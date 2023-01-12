@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerIntroAnimationEvents : MonoBehaviour
 {
+    #region Attributes
     [Header("Outdoor Environment")]
     [SerializeField]
     private AK.Wwise.Event StopOutdoorAudioEvent;
@@ -18,6 +19,7 @@ public class PlayerIntroAnimationEvents : MonoBehaviour
     [Header("Game HUD")]
     [SerializeField]
     private GameObject HUD;
+    #endregion
     public void EndIntro()
     {
         GetComponentInChildren<PlayerCamera>().SetCanLook(true);

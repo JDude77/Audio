@@ -2,10 +2,13 @@ using UnityEngine;
 
 public class MenuButtons : MonoBehaviour
 {
+    #region Attributes
     [SerializeField]
     private GameObject MenuHUD;
     [SerializeField]
     private Animator PlayerAnimator;
+    #endregion
+
     public void StartGame()
     {
         PlayerAnimator.Play("PlayerIntro");

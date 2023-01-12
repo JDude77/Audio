@@ -1,8 +1,8 @@
-
 using UnityEngine;
 
 public class Toilet : MonoBehaviour, IInteractive
 {
+    #region Attributes
     [SerializeField]
     private AK.Wwise.Event FlushToiletEvent;
     [SerializeField]
@@ -10,18 +10,13 @@ public class Toilet : MonoBehaviour, IInteractive
     private readonly float FlushCooldownTime = 10.0f;
     private float CooldownTimer;
     private Animator FlushAnimator;
+    #endregion
 
+    #region IInteractive Properties
     public Collider[] InteractionColliders { get; set; }
     public bool IsInteractible { get; set; }
     public string HUDText { get; set; }
-
-    public void Interact()
-    {
-        IsInteractible = false;
-        FlushAnimator.Play("Flush");
-        StopFlushToiletEvent.Post(gameObject);
-        FlushToiletEvent.Post(gameObject);
-    }//End Interact
+    #endregion
 
     private void Awake()
     {
@@ -43,4 +38,14 @@ public class Toilet : MonoBehaviour, IInteractive
             }//End if
         }//End if
     }//End Update
+
+    #region Behaviours
+    public void Interact()
+    {
+        IsInteractible = false;
+        FlushAnimator.Play("Flush");
+        StopFlushToiletEvent.Post(gameObject);
+        FlushToiletEvent.Post(gameObject);
+    }//End Interact
+    #endregion
 }

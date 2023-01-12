@@ -2,10 +2,12 @@ using UnityEngine;
 
 public class JaniceHeadRotation : MonoBehaviour
 {
+    #region Attributes
     private GameManager GM;
     [SerializeField]
     private GameObject[] Eyes;
     private GameObject Player;
+    #endregion
 
     private void Awake()
     {
@@ -25,6 +27,7 @@ public class JaniceHeadRotation : MonoBehaviour
         RotateHead(Anxiety);
     }//End Update
 
+    #region Behaviours
     private void RotateHead(int Anxiety)
     {
         if (Anxiety >= 80)
@@ -37,7 +40,7 @@ public class JaniceHeadRotation : MonoBehaviour
         {
             transform.localRotation = Quaternion.Euler(270, 0, 0);
         }//End else
-    }
+    }//End RotateHead
 
     private void ToggleEyes(int Anxiety)
     {
@@ -56,4 +59,5 @@ public class JaniceHeadRotation : MonoBehaviour
             }//End foreach
         }//End else if
     }//End ToggleEyes
+    #endregion
 }

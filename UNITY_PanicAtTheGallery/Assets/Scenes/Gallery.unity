@@ -2632,7 +2632,7 @@ MonoBehaviour:
   reverbAuxBus:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 25417c12acabc724682a69eadfdfd2d3,
+    WwiseObjectReference: {fileID: 11400000, guid: b66e350fd49922b48900a27355efa9f1,
       type: 2}
   reverbLevel: 0.5
   transmissionLoss: 0.25
@@ -8698,7 +8698,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh25234
+  m_Name: pb_Mesh266788
   serializedVersion: 11
   m_SubMeshes:
   - serializedVersion: 2
@@ -20417,7 +20417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxScale: {x: 0.8, y: 1.2, z: 0.8}
   MinScale: {x: 1.2, y: 0.8, z: 1.2}
-  Volume: 0.25
+  Volume: 0.15
 --- !u!82 &894407761
 AudioSource:
   m_ObjectHideFlags: 0
@@ -22465,7 +22465,7 @@ MonoBehaviour:
   reverbAuxBus:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 25417c12acabc724682a69eadfdfd2d3,
+    WwiseObjectReference: {fileID: 11400000, guid: b66e350fd49922b48900a27355efa9f1,
       type: 2}
   reverbLevel: 0.5
   transmissionLoss: 0.25
@@ -32146,7 +32146,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1326847201}
   m_LocalRotation: {x: -3.426295e-25, y: 0.7071068, z: -3.426295e-25, w: 0.7071068}
-  m_LocalPosition: {x: 31.36, y: 2.56, z: -10.965719}
+  m_LocalPosition: {x: 34, y: 2.56, z: -11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -32192,7 +32192,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 9.7, y: 5.56, z: 20}
+  m_Size: {x: 22.5, y: 5.56, z: 20}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1326847206
 MonoBehaviour:
