@@ -391,7 +391,7 @@
 												</Point>
 												<Point>
 													<XPos>2.5</XPos>
-													<YPos>-0</YPos>
+													<YPos>0</YPos>
 													<Flags>0</Flags>
 													<SegmentShape>Log2</SegmentShape>
 												</Point>

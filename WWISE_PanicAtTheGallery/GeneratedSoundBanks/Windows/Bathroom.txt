@@ -14,13 +14,13 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	4143496951	Anxiety			\Default Work Unit\Anxiety	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	16732569	Impact	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Impact_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Door\Impact		28864
-	169234927	Squeak Closed	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Squeak Closed_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Door\Squeak Closed		158824
-	391689376	Squeak Open	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Squeak Open_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Door\Squeak Open		173884
-	604055459	Tap Running Loop	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Running Tap Loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Sink\Tap\Begin And Loop\Tap Running Loop		4296544
-	769748403	Toilet Flush	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Toilet Flush_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Toilet\Toilet Flush		7065380
-	781204341	Tap Running Start	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Running Tap Start_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Sink\Tap\Begin And Loop\Tap Running Start		1238584
-	817620279	Tap Running End	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Running Tap End_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Sink\Tap\Tap Running End		768420
-	833864767	Click	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Click_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Door\Click		29576
-	923908852	Thud	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Thud_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Door\Thud		61036
+	16732569	Impact	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Impact_A70281AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Door\Impact		3664
+	169234927	Squeak Closed	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Squeak Closed_A70281AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Door\Squeak Closed		57664
+	391689376	Squeak Open	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Squeak Open_A70281AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Door\Squeak Open		63124
+	604055459	Tap Running Loop	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Running Tap Loop_8D1A1728.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Sink\Tap\Begin And Loop\Tap Running Loop		528444
+	769748403	Toilet Flush	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Toilet Flush_3193FF9E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Toilet\Toilet Flush		531181
+	781204341	Tap Running Start	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Running Tap Start_3193FF9E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Sink\Tap\Begin And Loop\Tap Running Start		148320
+	817620279	Tap Running End	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Running Tap End_3193FF9E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Sink\Tap\Tap Running End		56744
+	833864767	Click	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Click_A70281AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Door\Click		29576
+	923908852	Thud	C:\Users\Jordan.Oaksydix\Desktop\Audio\WWISE_PanicAtTheGallery\.cache\Windows\SFX\Thud_A70281AC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Bathroom\Door\Thud		61036
 

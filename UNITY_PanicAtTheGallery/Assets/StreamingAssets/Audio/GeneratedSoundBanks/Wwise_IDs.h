@@ -26,16 +26,6 @@ namespace AK
         static const AkUniqueID PLAY_STINGER = 754369548U;
         static const AkUniqueID PLAY_TAPRUNNING = 3748840666U;
         static const AkUniqueID PLAY_TOILETFLUSH = 1853832177U;
-        static const AkUniqueID SET_BASS_PLAYING_OFF = 1968328302U;
-        static const AkUniqueID SET_BASS_PLAYING_ON = 443506384U;
-        static const AkUniqueID SET_CELLO_PLAYING_OFF = 4164588532U;
-        static const AkUniqueID SET_CELLO_PLAYING_ON = 27402606U;
-        static const AkUniqueID SET_MUSIC_KEY_SWITCH_B = 4015526953U;
-        static const AkUniqueID SET_MUSIC_KEY_SWITCH_C = 4015526952U;
-        static const AkUniqueID SET_VIOLA_PLAYING_OFF = 15315860U;
-        static const AkUniqueID SET_VIOLA_PLAYING_ON = 1657027470U;
-        static const AkUniqueID SET_VIOLIN_PLAYING_OFF = 2128560376U;
-        static const AkUniqueID SET_VIOLIN_PLAYING_ON = 882775970U;
         static const AkUniqueID STOP_BATHROOMDOORSOUNDS = 253011666U;
         static const AkUniqueID STOP_HEARTBEAT = 3319673256U;
         static const AkUniqueID STOP_OUTDOORSBLENDCONTAINER = 82798741U;

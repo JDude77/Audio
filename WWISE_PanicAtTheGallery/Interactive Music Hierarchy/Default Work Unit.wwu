@@ -1813,7 +1813,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{680F7C4A-BCC8-4F39-A7DB-FE098C842AFB}"/>
+							<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Music" ID="{5232D0F1-B9E0-4730-9C1D-E3E1AD2D1368}" WorkUnitID="{0414EF9D-E0CE-4D22-B9C8-C640A4574931}"/>
@@ -1868,14 +1868,14 @@
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Bass-Bridge-1_100bpm4-4_L4M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="407008473"/>
+												<MediaID ID="854968907"/>
 											</MediaIDList>
 										</AudioFileSource>
 										<AudioFileSource Name="Music-Bass-Bridge-2_100bpm4-4_L4M-P0" ID="{9997CD13-BF6E-4883-8886-9AD9D08A9414}">
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Bass-Bridge-2_100bpm4-4_L4M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="157582725"/>
+												<MediaID ID="86435424"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -1915,17 +1915,6 @@
 																		</MusicClip>
 																	</Local>
 																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{3A428897-82D4-4210-A9A7-22925FF31E68}" ShortID="591962199">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Bass_Playing_On" ID="{1C27A6B5-97A3-4BFF-B375-8EBBDFAD4220}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
 															</ObjectList>
 														</ObjectLists>
 													</MusicTrackSequence>
@@ -1947,17 +1936,6 @@
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Bass-Bridge-2_100bpm4-4_L4M-P0" ID="{9997CD13-BF6E-4883-8886-9AD9D08A9414}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{B42CCA47-A002-4555-8509-227373A62365}" ShortID="268931021">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Bass_Playing_On" ID="{1C27A6B5-97A3-4BFF-B375-8EBBDFAD4220}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -1983,17 +1961,6 @@
 																		</MusicClip>
 																	</Local>
 																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{05C0E834-0DE6-419E-A550-9BD27054FF61}" ShortID="282836294">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Bass_Playing_On" ID="{1C27A6B5-97A3-4BFF-B375-8EBBDFAD4220}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
 															</ObjectList>
 														</ObjectLists>
 													</MusicTrackSequence>
@@ -2017,17 +1984,6 @@
 																		</MusicClip>
 																	</Local>
 																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{69A4632D-7E84-4CCE-86AF-070D962A9806}" ShortID="879823385">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Bass_Playing_On" ID="{1C27A6B5-97A3-4BFF-B375-8EBBDFAD4220}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
 															</ObjectList>
 														</ObjectLists>
 													</MusicTrackSequence>
@@ -2036,21 +1992,7 @@
 											<Reference>
 												<Local>
 													<MusicTrackSequence Name="" ID="{4E156734-5769-4C49-83B7-6FDE8D588664}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{D302AFFE-F2F5-4D7F-A20D-5E21F630E2B7}" ShortID="720845959">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Bass_Playing_Off" ID="{EE96BFE9-68E0-4012-BC96-1F531BDE2F29}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
+														<ObjectLists/>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2081,14 +2023,14 @@
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Violin-Bridge-1_100bpm4-4_L4M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="711609787"/>
+												<MediaID ID="991213680"/>
 											</MediaIDList>
 										</AudioFileSource>
 										<AudioFileSource Name="Music-Violin-Bridge-2_100bpm4-4_L4M-P0" ID="{ECA63EB8-6467-4F65-B502-D6A506BA6CBD}">
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Violin-Bridge-2_100bpm4-4_L4M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="173811338"/>
+												<MediaID ID="749954953"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -2128,17 +2070,6 @@
 																		</MusicClip>
 																	</Local>
 																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{21E1D921-21F3-428E-98E3-194FB57689ED}" ShortID="383738798">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Violin_Playing_On" ID="{7AC8ABFB-1226-47E9-BA41-36452E6E9B96}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
 															</ObjectList>
 														</ObjectLists>
 													</MusicTrackSequence>
@@ -2160,17 +2091,6 @@
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Violin-Bridge-2_100bpm4-4_L4M-P0" ID="{ECA63EB8-6467-4F65-B502-D6A506BA6CBD}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{8ECD94BA-CCC1-4F3E-8052-26FE66A25EF6}" ShortID="442281208">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Violin_Playing_On" ID="{7AC8ABFB-1226-47E9-BA41-36452E6E9B96}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -2196,17 +2116,6 @@
 																		</MusicClip>
 																	</Local>
 																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{5199C72F-E2AB-413D-BE7E-48FF1FDE9F6C}" ShortID="328169994">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Violin_Playing_On" ID="{7AC8ABFB-1226-47E9-BA41-36452E6E9B96}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
 															</ObjectList>
 														</ObjectLists>
 													</MusicTrackSequence>
@@ -2230,17 +2139,6 @@
 																		</MusicClip>
 																	</Local>
 																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{D6253EF5-2BC2-47A7-81D7-E503AEE73AAC}" ShortID="1056085200">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Violin_Playing_On" ID="{7AC8ABFB-1226-47E9-BA41-36452E6E9B96}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
 															</ObjectList>
 														</ObjectLists>
 													</MusicTrackSequence>
@@ -2249,21 +2147,7 @@
 											<Reference>
 												<Local>
 													<MusicTrackSequence Name="" ID="{177C149F-83B8-4775-969A-730EE8F3EC39}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{055BE93A-429B-4A5B-A2E9-B5E2EA48B4B9}" ShortID="913827455">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Violin_Playing_Off" ID="{81635F39-04F3-45A7-BE8C-6F2D83C6BC9E}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
+														<ObjectLists/>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2294,14 +2178,14 @@
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Viola-Bridge-1_100bpm4-4_L4M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="376939138"/>
+												<MediaID ID="998583830"/>
 											</MediaIDList>
 										</AudioFileSource>
 										<AudioFileSource Name="Music-Viola-Bridge-2_100bpm4-4_L4M-P0" ID="{BAAF0799-2D2A-4363-9EBE-FC08DCE426B4}">
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Viola-Bridge-2_100bpm4-4_L4M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="65106187"/>
+												<MediaID ID="776439342"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -2341,17 +2225,6 @@
 																		</MusicClip>
 																	</Local>
 																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{B38DCE5E-F3BD-4B65-9C05-6F95B0704A98}" ShortID="874123635">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Viola_Playing_On" ID="{43379F9B-085B-41D4-BFA6-D13A4835D287}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
 															</ObjectList>
 														</ObjectLists>
 													</MusicTrackSequence>
@@ -2373,17 +2246,6 @@
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Viola-Bridge-2_100bpm4-4_L4M-P0" ID="{BAAF0799-2D2A-4363-9EBE-FC08DCE426B4}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{8F8DF2CA-D3C3-4654-A207-2BAC1B44EE8E}" ShortID="427070872">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Viola_Playing_On" ID="{43379F9B-085B-41D4-BFA6-D13A4835D287}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -2409,17 +2271,6 @@
 																		</MusicClip>
 																	</Local>
 																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{0D9B154A-8C93-4066-B455-72E1D3F6C152}" ShortID="794265355">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Viola_Playing_On" ID="{43379F9B-085B-41D4-BFA6-D13A4835D287}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
 															</ObjectList>
 														</ObjectLists>
 													</MusicTrackSequence>
@@ -2443,17 +2294,6 @@
 																		</MusicClip>
 																	</Local>
 																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{4F30E0B4-4777-4350-98E1-B3814B4256A8}" ShortID="492269327">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Viola_Playing_On" ID="{43379F9B-085B-41D4-BFA6-D13A4835D287}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
 															</ObjectList>
 														</ObjectLists>
 													</MusicTrackSequence>
@@ -2462,21 +2302,7 @@
 											<Reference>
 												<Local>
 													<MusicTrackSequence Name="" ID="{5C18AA8F-53E9-4237-B56A-1CD93A2908C2}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{52E11B64-E714-4D09-91EE-5EC0C13C16EB}" ShortID="9173638">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Viola_Playing_Off" ID="{CF61CA2D-334A-48DF-A3E9-9551DFC2625B}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
+														<ObjectLists/>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2507,14 +2333,14 @@
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Cello-Bridge-1_100bpm4-4_L4M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="37316991"/>
+												<MediaID ID="318785376"/>
 											</MediaIDList>
 										</AudioFileSource>
 										<AudioFileSource Name="Music-Cello-Bridge-2_100bpm4-4_L4M-P0" ID="{70671392-D7ED-48C7-8F4A-E5EAB808304A}">
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Cello-Bridge-2_100bpm4-4_L4M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="527236080"/>
+												<MediaID ID="603734573"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -2554,17 +2380,6 @@
 																		</MusicClip>
 																	</Local>
 																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{802725E7-0638-4007-B2CC-026D3FA298C6}" ShortID="353612610">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Cello_Playing_On" ID="{DF9E341B-9A8A-4689-907D-1E4C07936F76}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
 															</ObjectList>
 														</ObjectLists>
 													</MusicTrackSequence>
@@ -2586,17 +2401,6 @@
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Cello-Bridge-2_100bpm4-4_L4M-P0" ID="{70671392-D7ED-48C7-8F4A-E5EAB808304A}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{14FC8F16-492D-4ED6-A0C0-AA5440267E8D}" ShortID="261964076">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Cello_Playing_On" ID="{DF9E341B-9A8A-4689-907D-1E4C07936F76}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -2622,17 +2426,6 @@
 																		</MusicClip>
 																	</Local>
 																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{05CE94AD-5401-4D97-958B-F83B0755FF61}" ShortID="432117647">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Cello_Playing_On" ID="{DF9E341B-9A8A-4689-907D-1E4C07936F76}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
 															</ObjectList>
 														</ObjectLists>
 													</MusicTrackSequence>
@@ -2656,17 +2449,6 @@
 																		</MusicClip>
 																	</Local>
 																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{035B7430-EC6C-405C-A84B-E7D5C8EB4FED}" ShortID="100345649">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Cello_Playing_On" ID="{DF9E341B-9A8A-4689-907D-1E4C07936F76}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
 															</ObjectList>
 														</ObjectLists>
 													</MusicTrackSequence>
@@ -2675,75 +2457,7 @@
 											<Reference>
 												<Local>
 													<MusicTrackSequence Name="" ID="{870527B9-F49E-4C89-949C-D79B9624C418}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{CA9D4FD1-FF71-4487-8DC6-15F6CBBCE417}" ShortID="734874569">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Cello_Playing_Off" ID="{DA65040A-83E9-4C1C-A542-DE6E2741AC27}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="Events Track" ID="{97F5227D-EA94-4E4C-A257-8E848E1181D7}" ShortID="969154681">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0414EF9D-E0CE-4D22-B9C8-C640A4574931}"/>
-										</Reference>
-									</ReferenceList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{E4609338-674A-4419-871F-1A48220B1C95}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{DC857B75-4A3E-4362-83BD-4BD55CD28592}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{85FE9A4A-A3A0-497A-8983-E0D8E34320C1}" ShortID="616366150">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Music_Key_Switch_C" ID="{A593A3E5-3C9A-43F8-8840-B5D7F4E4D3EB}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{3984D9E5-7927-4D90-ABFC-EA0FFCC525E2}" ShortID="20025894">
-																			<PropertyList>
-																				<Property Name="PlayAt" Type="Real64" Value="4800"/>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Music_Key_Switch_B" ID="{26E05D71-09CD-4BC6-B77F-1FAD2DAB266B}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
+														<ObjectLists/>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -2842,14 +2556,14 @@
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Cello-Main-1_100bpm4-4_L8M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="932885924"/>
+												<MediaID ID="928365849"/>
 											</MediaIDList>
 										</AudioFileSource>
 										<AudioFileSource Name="Music-Cello-Main-2_100bpm4-4_L8M-P0" ID="{7F4E4DB9-22C5-4E13-A399-E1095D8B0D8E}">
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Cello-Main-2_100bpm4-4_L8M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="344283988"/>
+												<MediaID ID="109811343"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -2875,21 +2589,9 @@
 																				<Property Name="EndTrimOffset" Type="Real64" Value="20512.4943310658"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="600"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Cello-Main-1_100bpm4-4_L8M-P0" ID="{D5BC4DA7-9A98-4CF1-9E7C-DFAB5A263B78}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{2E059DE4-C709-4A5F-9C33-4258F6BB3135}" ShortID="395909841">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Cello_Playing_On" ID="{DF9E341B-9A8A-4689-907D-1E4C07936F76}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -2909,21 +2611,9 @@
 																				<Property Name="EndTrimOffset" Type="Real64" Value="21312.4943310658"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="600"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Cello-Main-2_100bpm4-4_L8M-P0" ID="{7F4E4DB9-22C5-4E13-A399-E1095D8B0D8E}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{FDA8264C-BAC0-4661-B509-1397FF856CE5}" ShortID="305534278">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Cello_Playing_On" ID="{DF9E341B-9A8A-4689-907D-1E4C07936F76}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -2943,21 +2633,9 @@
 																				<Property Name="EndTrimOffset" Type="Real64" Value="20512.4943310658"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="600"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Cello-Main-1_100bpm4-4_L8M-P0" ID="{D5BC4DA7-9A98-4CF1-9E7C-DFAB5A263B78}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{33EFA164-22E3-4749-89E7-BBA4D3A568A9}" ShortID="487330153">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Cello_Playing_On" ID="{DF9E341B-9A8A-4689-907D-1E4C07936F76}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -2977,21 +2655,9 @@
 																				<Property Name="EndTrimOffset" Type="Real64" Value="21312.4943310658"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="600"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Cello-Main-2_100bpm4-4_L8M-P0" ID="{7F4E4DB9-22C5-4E13-A399-E1095D8B0D8E}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{5B81B8C6-E799-48B2-90BC-FEF2AD500C8E}" ShortID="1024585932">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Cello_Playing_On" ID="{DF9E341B-9A8A-4689-907D-1E4C07936F76}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -3002,21 +2668,7 @@
 											<Reference>
 												<Local>
 													<MusicTrackSequence Name="" ID="{EF3DA568-06F5-4D43-BDAE-05FB83B7B607}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{9032043B-BBC2-425A-AB67-6B9BE9E9BA29}" ShortID="615109762">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Cello_Playing_Off" ID="{DA65040A-83E9-4C1C-A542-DE6E2741AC27}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
+														<ObjectLists/>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -3046,14 +2698,14 @@
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Viola-Main-1_100bpm4-4_L8M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="350021281"/>
+												<MediaID ID="704733693"/>
 											</MediaIDList>
 										</AudioFileSource>
 										<AudioFileSource Name="Music-Viola-Main-2_100bpm4-4_L8M-P0" ID="{A2628BA6-511C-42AC-9D48-7EDF29EA147F}">
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Viola-Main-2_100bpm4-4_L8M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1049011118"/>
+												<MediaID ID="195367266"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -3079,21 +2731,9 @@
 																				<Property Name="EndTrimOffset" Type="Real64" Value="21237.5056689342"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="600"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Viola-Main-1_100bpm4-4_L8M-P0" ID="{D2C7D8E4-54A0-4A2A-B869-A765D70E8616}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{B9D5375D-C0CA-4DAF-99E4-CBF7C112593A}" ShortID="123578420">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Viola_Playing_On" ID="{43379F9B-085B-41D4-BFA6-D13A4835D287}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -3113,21 +2753,9 @@
 																				<Property Name="EndTrimOffset" Type="Real64" Value="21118.7528344671"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="600"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Viola-Main-2_100bpm4-4_L8M-P0" ID="{A2628BA6-511C-42AC-9D48-7EDF29EA147F}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{CDA3088A-2636-4087-9206-ECD6F2FC9418}" ShortID="306921235">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Viola_Playing_On" ID="{43379F9B-085B-41D4-BFA6-D13A4835D287}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -3147,21 +2775,9 @@
 																				<Property Name="EndTrimOffset" Type="Real64" Value="21237.5056689342"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="600"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Viola-Main-1_100bpm4-4_L8M-P0" ID="{D2C7D8E4-54A0-4A2A-B869-A765D70E8616}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{9924FD24-3903-4C73-B1A8-5A5187A2C5E1}" ShortID="1030067231">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Viola_Playing_On" ID="{43379F9B-085B-41D4-BFA6-D13A4835D287}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -3181,21 +2797,9 @@
 																				<Property Name="EndTrimOffset" Type="Real64" Value="21118.7528344671"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="600"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Viola-Main-2_100bpm4-4_L8M-P0" ID="{A2628BA6-511C-42AC-9D48-7EDF29EA147F}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{DE5B2DB7-8A85-4F9F-8A4C-9C15F396E592}" ShortID="480070155">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Viola_Playing_On" ID="{43379F9B-085B-41D4-BFA6-D13A4835D287}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -3206,21 +2810,7 @@
 											<Reference>
 												<Local>
 													<MusicTrackSequence Name="" ID="{831ACB25-9380-4B3E-AA49-AD66D2453FD6}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{3A98402B-8C1E-402B-A248-B60AE3BDDFB9}" ShortID="711085061">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Viola_Playing_Off" ID="{CF61CA2D-334A-48DF-A3E9-9551DFC2625B}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
+														<ObjectLists/>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -3251,14 +2841,14 @@
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Bass-Main-1_100bpm4-4_L8M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="641965397"/>
+												<MediaID ID="215093140"/>
 											</MediaIDList>
 										</AudioFileSource>
 										<AudioFileSource Name="Music-Bass-Main-2_100bpm4-4_L8M-P0" ID="{86966B91-D04B-4278-B9EB-711C39713193}">
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Bass-Main-2_100bpm4-4_L8M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="340006888"/>
+												<MediaID ID="584055070"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -3292,21 +2882,9 @@
 																				<Property Name="EndTrimOffset" Type="Real64" Value="20775.0113378685"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="600"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Bass-Main-1_100bpm4-4_L8M-P0" ID="{8CFC5F71-F3C9-4D8D-90CF-630398845B6B}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{D553C19E-F6C5-4CD3-BF9C-A63C991FA49B}" ShortID="344072509">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Bass_Playing_On" ID="{1C27A6B5-97A3-4BFF-B375-8EBBDFAD4220}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -3326,21 +2904,9 @@
 																				<Property Name="EndTrimOffset" Type="Real64" Value="21100"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="600"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Bass-Main-2_100bpm4-4_L8M-P0" ID="{86966B91-D04B-4278-B9EB-711C39713193}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{7F17713D-A4CA-4BE2-8ED7-731B71FFD1C8}" ShortID="209767803">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Bass_Playing_On" ID="{1C27A6B5-97A3-4BFF-B375-8EBBDFAD4220}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -3360,21 +2926,9 @@
 																				<Property Name="EndTrimOffset" Type="Real64" Value="20775.0113378685"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="600"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Bass-Main-1_100bpm4-4_L8M-P0" ID="{8CFC5F71-F3C9-4D8D-90CF-630398845B6B}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{8F86E56E-1CB6-4F5D-825C-6EFF777C1A72}" ShortID="335569717">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Bass_Playing_On" ID="{1C27A6B5-97A3-4BFF-B375-8EBBDFAD4220}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -3394,21 +2948,9 @@
 																				<Property Name="EndTrimOffset" Type="Real64" Value="21100"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="600"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Bass-Main-2_100bpm4-4_L8M-P0" ID="{86966B91-D04B-4278-B9EB-711C39713193}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{54D814C9-FB95-474D-8D66-8A7BA86316D2}" ShortID="461209815">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Bass_Playing_On" ID="{1C27A6B5-97A3-4BFF-B375-8EBBDFAD4220}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -3419,21 +2961,7 @@
 											<Reference>
 												<Local>
 													<MusicTrackSequence Name="" ID="{11CA012F-F358-48BD-885E-F09E6B01AEC9}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{A01AF86C-AFED-4DC9-A57D-76ED019121E9}" ShortID="563039180">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Bass_Playing_Off" ID="{EE96BFE9-68E0-4012-BC96-1F531BDE2F29}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
+														<ObjectLists/>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -3463,14 +2991,14 @@
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Violin-Main-1_100bpm4-4_L8M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="756525438"/>
+												<MediaID ID="1034244333"/>
 											</MediaIDList>
 										</AudioFileSource>
 										<AudioFileSource Name="Music-Violin-Main-2_100bpm4-4_L8M-P0" ID="{A5438149-8181-4CD1-9EA7-6E170204127D}">
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Violin-Main-2_100bpm4-4_L8M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="19662563"/>
+												<MediaID ID="922391738"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -3496,21 +3024,9 @@
 																				<Property Name="EndTrimOffset" Type="Real64" Value="21100"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="600"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Violin-Main-1_100bpm4-4_L8M-P0" ID="{831F3BE5-0C1E-4CC2-B1EF-C1A72F42E5A4}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{F1BC9531-3B4B-452A-BAED-DE63310CCC4E}" ShortID="523011897">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Violin_Playing_On" ID="{7AC8ABFB-1226-47E9-BA41-36452E6E9B96}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -3530,21 +3046,9 @@
 																				<Property Name="EndTrimOffset" Type="Real64" Value="21400"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="600"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Violin-Main-2_100bpm4-4_L8M-P0" ID="{A5438149-8181-4CD1-9EA7-6E170204127D}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{FA4F0132-2679-4072-8481-FB6B6AD7E8BE}" ShortID="632636553">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Violin_Playing_On" ID="{7AC8ABFB-1226-47E9-BA41-36452E6E9B96}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -3564,21 +3068,9 @@
 																				<Property Name="EndTrimOffset" Type="Real64" Value="21100"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="600"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Violin-Main-1_100bpm4-4_L8M-P0" ID="{831F3BE5-0C1E-4CC2-B1EF-C1A72F42E5A4}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{1AD14219-D901-4577-B3FA-10E4B1FA243B}" ShortID="131581717">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Violin_Playing_On" ID="{7AC8ABFB-1226-47E9-BA41-36452E6E9B96}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -3598,21 +3090,9 @@
 																				<Property Name="EndTrimOffset" Type="Real64" Value="21400"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
 																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																				<Property Name="PlayAt" Type="Real64" Value="600"/>
 																			</PropertyList>
 																			<AudioSourceRef Name="Music-Violin-Main-2_100bpm4-4_L8M-P0" ID="{A5438149-8181-4CD1-9EA7-6E170204127D}"/>
 																		</MusicClip>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{FCFE917F-8ECE-41AC-8209-D64825AFFF59}" ShortID="47287438">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Violin_Playing_On" ID="{7AC8ABFB-1226-47E9-BA41-36452E6E9B96}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
 																	</Local>
 																</Reference>
 															</ObjectList>
@@ -3623,103 +3103,7 @@
 											<Reference>
 												<Local>
 													<MusicTrackSequence Name="" ID="{32B6AD34-4B45-4CF9-ACC2-E586321FBE31}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{A3392543-07AC-4041-9C5B-4F68EBC28CEC}" ShortID="864482850">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Violin_Playing_Off" ID="{81635F39-04F3-45A7-BE8C-6F2D83C6BC9E}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
-													</MusicTrackSequence>
-												</Local>
-											</Reference>
-										</ObjectList>
-									</ObjectLists>
-								</MusicTrack>
-								<MusicTrack Name="Events Track" ID="{E96C532B-BB9E-4028-A47A-0797CD3933C9}" ShortID="667247233">
-									<ReferenceList>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0414EF9D-E0CE-4D22-B9C8-C640A4574931}"/>
-										</Reference>
-									</ReferenceList>
-									<TransitionList>
-										<MusicTransition Name="Root" ID="{A322581A-7AEB-4BE0-A9FE-7885175BF7FF}">
-											<PropertyList>
-												<Property Name="IsFolder" Type="bool" Value="True"/>
-											</PropertyList>
-											<TransitionInfo/>
-										</MusicTransition>
-									</TransitionList>
-									<ObjectLists>
-										<ObjectList Name="Sequences">
-											<Reference>
-												<Local>
-													<MusicTrackSequence Name="" ID="{86D3FB52-3B25-40C7-AD67-B37E67075041}">
-														<ObjectLists>
-															<ObjectList Name="Clips">
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{28014AD8-6B7C-456B-92D9-CB1F2C223F96}" ShortID="453484371">
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Music_Key_Switch_C" ID="{A593A3E5-3C9A-43F8-8840-B5D7F4E4D3EB}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{C2E6DECE-4A73-42E7-8DB3-8BB1427C43AE}" ShortID="1047897182">
-																			<PropertyList>
-																				<Property Name="PlayAt" Type="Real64" Value="4800"/>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Music_Key_Switch_B" ID="{26E05D71-09CD-4BC6-B77F-1FAD2DAB266B}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{FE3CA18B-EB1F-4160-9F64-0350B0B97E23}" ShortID="460469139">
-																			<PropertyList>
-																				<Property Name="PlayAt" Type="Real64" Value="9599.99999999998"/>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Music_Key_Switch_C" ID="{A593A3E5-3C9A-43F8-8840-B5D7F4E4D3EB}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
-																<Reference>
-																	<Local>
-																		<MusicEventCue Name="" ID="{CB56087F-51A9-4858-B6CF-4255C0616EFA}" ShortID="715853380">
-																			<PropertyList>
-																				<Property Name="PlayAt" Type="Real64" Value="14400"/>
-																			</PropertyList>
-																			<ReferenceList>
-																				<Reference Name="PostEventTarget">
-																					<ObjectRef Name="Set_Music_Key_Switch_B" ID="{26E05D71-09CD-4BC6-B77F-1FAD2DAB266B}" WorkUnitID="{B0786886-AFBB-41A8-B080-B74DCBE1B0BF}"/>
-																				</Reference>
-																			</ReferenceList>
-																		</MusicEventCue>
-																	</Local>
-																</Reference>
-															</ObjectList>
-														</ObjectLists>
+														<ObjectLists/>
 													</MusicTrackSequence>
 												</Local>
 											</Reference>
@@ -3731,11 +3115,7 @@
 								<ObjectList Name="Cues">
 									<Reference>
 										<Local>
-											<MusicCue Name="Entry Cue" ID="{DC644591-B7AB-4A0E-8275-F28BE676E93F}">
-												<PropertyList>
-													<Property Name="TimeMs" Type="Real64" Value="600"/>
-												</PropertyList>
-											</MusicCue>
+											<MusicCue Name="Entry Cue" ID="{DC644591-B7AB-4A0E-8275-F28BE676E93F}"/>
 										</Local>
 									</Reference>
 									<Reference>
@@ -3743,7 +3123,7 @@
 											<MusicCue Name="Exit Cue" ID="{9841AE4F-2FF2-444F-8F08-79C98F7A4526}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="1"/>
-													<Property Name="TimeMs" Type="Real64" Value="19800"/>
+													<Property Name="TimeMs" Type="Real64" Value="19200"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -3753,7 +3133,6 @@
 											<MusicCue Name="C" ID="{8D41E6BD-6908-4F29-81D9-84AB854B6BC3}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="2"/>
-													<Property Name="TimeMs" Type="Real64" Value="600"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -3763,7 +3142,7 @@
 											<MusicCue Name="B" ID="{CF0BD16E-F837-472F-ABC4-9DB6B66C15DD}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="2"/>
-													<Property Name="TimeMs" Type="Real64" Value="5400"/>
+													<Property Name="TimeMs" Type="Real64" Value="4800"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -3773,7 +3152,7 @@
 											<MusicCue Name="C" ID="{3B5052E8-3BD7-45FC-B9BE-ED904EBCAB51}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="2"/>
-													<Property Name="TimeMs" Type="Real64" Value="10200"/>
+													<Property Name="TimeMs" Type="Real64" Value="9599.99999999999"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -3783,7 +3162,7 @@
 											<MusicCue Name="B" ID="{7501F4C5-3F0D-4848-85F5-FCF994A9258C}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="2"/>
-													<Property Name="TimeMs" Type="Real64" Value="15000"/>
+													<Property Name="TimeMs" Type="Real64" Value="14400"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -3793,7 +3172,7 @@
 											<MusicCue Name="C" ID="{CEFBBCE9-B09F-4C11-B492-71E05276FBF5}">
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="2"/>
-													<Property Name="TimeMs" Type="Real64" Value="19800"/>
+													<Property Name="TimeMs" Type="Real64" Value="19200"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>
@@ -3847,7 +3226,7 @@
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Viola-Intro_100bpm4-4_L2M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1059299020"/>
+												<MediaID ID="382083315"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -3909,7 +3288,7 @@
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Bass-Intro_100bpm4-4_L2M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="729340515"/>
+												<MediaID ID="955648411"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -3978,7 +3357,7 @@
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Violin-Intro_100bpm4-4_L2M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="168973923"/>
+												<MediaID ID="685865599"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -4039,7 +3418,7 @@
 											<Language>SFX</Language>
 											<AudioFile>MUSIC\Music-Cello-Intro_100bpm4-4_L2M-P0.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1053285044"/>
+												<MediaID ID="434672435"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
@@ -4514,7 +3893,7 @@
 																						<PointList>
 																							<Point>
 																								<XPos>0</XPos>
-																								<YPos>-0</YPos>
+																								<YPos>0</YPos>
 																								<Flags>5</Flags>
 																								<SegmentShape>Exp2</SegmentShape>
 																							</Point>

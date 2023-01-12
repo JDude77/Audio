@@ -252,28 +252,8 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 866878b0bbafa841b080b74dcbe1b0bf
     GuidInternal: 
-    m_lastTime: -8585282058017627679
+    m_lastTime: -8585281157933040732
     List:
-    - name: Bass
-      guid: 75a6c5707979aa42a983933904d09422
-      id: 1291433344
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 866878b0bbafa841b080b74dcbe1b0bf
-      - ElementName: Music
-        ObjectType: 4
-        guid: 73475361be36d44bbdcabc8efc27821b
-      - ElementName: Bass
-        ObjectType: 4
-        guid: 75a6c5707979aa42a983933904d09422
-      Path: Events\Default Work Unit\Music\Bass
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
     - name: Bathroom
       guid: b49bc6048208294384213f464f9b377a
       id: 1831461191
@@ -288,26 +268,6 @@ MonoBehaviour:
         ObjectType: 4
         guid: b49bc6048208294384213f464f9b377a
       Path: Events\Default Work Unit\Bathroom
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Cello
-      guid: 42eb24608c9e994b9e84d792a2459d5d
-      id: 1867631852
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 866878b0bbafa841b080b74dcbe1b0bf
-      - ElementName: Music
-        ObjectType: 4
-        guid: 73475361be36d44bbdcabc8efc27821b
-      - ElementName: Cello
-        ObjectType: 4
-        guid: 42eb24608c9e994b9e84d792a2459d5d
-      Path: Events\Default Work Unit\Music\Cello
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -571,7 +531,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 5cf2b4a9dad7b84b9b11811ebda3ac0e
       Path: Events\Default Work Unit\Music\Play_Music
-      maxAttenuation: 0
+      maxAttenuation: 48
       maxDuration: -1
       minDuration: -1
     - name: Play_OutdoorsBlendContainer
@@ -680,230 +640,6 @@ MonoBehaviour:
       maxAttenuation: 25
       maxDuration: 46.275124
       minDuration: 37.804817
-    - name: Set_Bass_Playing_Off
-      guid: e9bf96eee0681240bc961f531bde2f29
-      id: 1968328302
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 866878b0bbafa841b080b74dcbe1b0bf
-      - ElementName: Music
-        ObjectType: 4
-        guid: 73475361be36d44bbdcabc8efc27821b
-      - ElementName: Bass
-        ObjectType: 4
-        guid: 75a6c5707979aa42a983933904d09422
-      - ElementName: Set_Bass_Playing_Off
-        ObjectType: 3
-        guid: e9bf96eee0681240bc961f531bde2f29
-      Path: Events\Default Work Unit\Music\Bass\Set_Bass_Playing_Off
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Set_Bass_Playing_On
-      guid: b5a6271ca397ff4bb3758ebbdfad4220
-      id: 443506384
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 866878b0bbafa841b080b74dcbe1b0bf
-      - ElementName: Music
-        ObjectType: 4
-        guid: 73475361be36d44bbdcabc8efc27821b
-      - ElementName: Bass
-        ObjectType: 4
-        guid: 75a6c5707979aa42a983933904d09422
-      - ElementName: Set_Bass_Playing_On
-        ObjectType: 3
-        guid: b5a6271ca397ff4bb3758ebbdfad4220
-      Path: Events\Default Work Unit\Music\Bass\Set_Bass_Playing_On
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Set_Cello_Playing_Off
-      guid: 0a0465dae9831c4ca542de6e2741ac27
-      id: 4164588532
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 866878b0bbafa841b080b74dcbe1b0bf
-      - ElementName: Music
-        ObjectType: 4
-        guid: 73475361be36d44bbdcabc8efc27821b
-      - ElementName: Cello
-        ObjectType: 4
-        guid: 42eb24608c9e994b9e84d792a2459d5d
-      - ElementName: Set_Cello_Playing_Off
-        ObjectType: 3
-        guid: 0a0465dae9831c4ca542de6e2741ac27
-      Path: Events\Default Work Unit\Music\Cello\Set_Cello_Playing_Off
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Set_Cello_Playing_On
-      guid: 1b349edf8a9a8946907d1e4c07936f76
-      id: 27402606
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 866878b0bbafa841b080b74dcbe1b0bf
-      - ElementName: Music
-        ObjectType: 4
-        guid: 73475361be36d44bbdcabc8efc27821b
-      - ElementName: Cello
-        ObjectType: 4
-        guid: 42eb24608c9e994b9e84d792a2459d5d
-      - ElementName: Set_Cello_Playing_On
-        ObjectType: 3
-        guid: 1b349edf8a9a8946907d1e4c07936f76
-      Path: Events\Default Work Unit\Music\Cello\Set_Cello_Playing_On
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Set_Music_Key_Switch_B
-      guid: 715de026cd09c64bb77f1fad2dab266b
-      id: 4015526953
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 866878b0bbafa841b080b74dcbe1b0bf
-      - ElementName: Music
-        ObjectType: 4
-        guid: 73475361be36d44bbdcabc8efc27821b
-      - ElementName: Set_Music_Key_Switch_B
-        ObjectType: 3
-        guid: 715de026cd09c64bb77f1fad2dab266b
-      Path: Events\Default Work Unit\Music\Set_Music_Key_Switch_B
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Set_Music_Key_Switch_C
-      guid: e5a393a59a3cf8438840b5d7f4e4d3eb
-      id: 4015526952
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 866878b0bbafa841b080b74dcbe1b0bf
-      - ElementName: Music
-        ObjectType: 4
-        guid: 73475361be36d44bbdcabc8efc27821b
-      - ElementName: Set_Music_Key_Switch_C
-        ObjectType: 3
-        guid: e5a393a59a3cf8438840b5d7f4e4d3eb
-      Path: Events\Default Work Unit\Music\Set_Music_Key_Switch_C
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Set_Viola_Playing_Off
-      guid: 2dca61cf4a33df48a3e99551dfc2625b
-      id: 15315860
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 866878b0bbafa841b080b74dcbe1b0bf
-      - ElementName: Music
-        ObjectType: 4
-        guid: 73475361be36d44bbdcabc8efc27821b
-      - ElementName: Viola
-        ObjectType: 4
-        guid: 98bac55c255d3f4dae9e542c0ecff2a1
-      - ElementName: Set_Viola_Playing_Off
-        ObjectType: 3
-        guid: 2dca61cf4a33df48a3e99551dfc2625b
-      Path: Events\Default Work Unit\Music\Viola\Set_Viola_Playing_Off
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Set_Viola_Playing_On
-      guid: 9b9f37435b08d441bfa6d13a4835d287
-      id: 1657027470
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 866878b0bbafa841b080b74dcbe1b0bf
-      - ElementName: Music
-        ObjectType: 4
-        guid: 73475361be36d44bbdcabc8efc27821b
-      - ElementName: Viola
-        ObjectType: 4
-        guid: 98bac55c255d3f4dae9e542c0ecff2a1
-      - ElementName: Set_Viola_Playing_On
-        ObjectType: 3
-        guid: 9b9f37435b08d441bfa6d13a4835d287
-      Path: Events\Default Work Unit\Music\Viola\Set_Viola_Playing_On
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Set_Violin_Playing_Off
-      guid: 395f6381f304a745be8c6f2d83c6bc9e
-      id: 2128560376
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 866878b0bbafa841b080b74dcbe1b0bf
-      - ElementName: Music
-        ObjectType: 4
-        guid: 73475361be36d44bbdcabc8efc27821b
-      - ElementName: Violin
-        ObjectType: 4
-        guid: f0610f829f1b7b4687e91e644b1870bd
-      - ElementName: Set_Violin_Playing_Off
-        ObjectType: 3
-        guid: 395f6381f304a745be8c6f2d83c6bc9e
-      Path: Events\Default Work Unit\Music\Violin\Set_Violin_Playing_Off
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Set_Violin_Playing_On
-      guid: fbabc87a2612e947ba4136452e6e9b96
-      id: 882775970
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 866878b0bbafa841b080b74dcbe1b0bf
-      - ElementName: Music
-        ObjectType: 4
-        guid: 73475361be36d44bbdcabc8efc27821b
-      - ElementName: Violin
-        ObjectType: 4
-        guid: f0610f829f1b7b4687e91e644b1870bd
-      - ElementName: Set_Violin_Playing_On
-        ObjectType: 3
-        guid: fbabc87a2612e947ba4136452e6e9b96
-      Path: Events\Default Work Unit\Music\Violin\Set_Violin_Playing_On
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
     - name: Sink
       guid: aa177bf80125494d85a4489feb1fa0a7
       id: 805220752
@@ -1090,46 +826,6 @@ MonoBehaviour:
         ObjectType: 4
         guid: 8d1df55caec81941b1c87ac7a691280e
       Path: Events\Default Work Unit\Bathroom\Toilet
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Viola
-      guid: 98bac55c255d3f4dae9e542c0ecff2a1
-      id: 3135074692
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 866878b0bbafa841b080b74dcbe1b0bf
-      - ElementName: Music
-        ObjectType: 4
-        guid: 73475361be36d44bbdcabc8efc27821b
-      - ElementName: Viola
-        ObjectType: 4
-        guid: 98bac55c255d3f4dae9e542c0ecff2a1
-      Path: Events\Default Work Unit\Music\Viola
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: Violin
-      guid: f0610f829f1b7b4687e91e644b1870bd
-      id: 3063529226
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 866878b0bbafa841b080b74dcbe1b0bf
-      - ElementName: Music
-        ObjectType: 4
-        guid: 73475361be36d44bbdcabc8efc27821b
-      - ElementName: Violin
-        ObjectType: 4
-        guid: f0610f829f1b7b4687e91e644b1870bd
-      Path: Events\Default Work Unit\Music\Violin
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1636,9 +1332,9 @@ MonoBehaviour:
         ObjectType: 14
         guid: 314819097ef5b54a877cd01cab4370b4
       Path: Triggers\Default Work Unit\Down_Stinger_C
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0500000006000000070000000b0000000f00000010000000
+  ExpandedFileSystemItemIds: 590000005a000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 
